@@ -7,7 +7,7 @@ You will need to create your own training data from tools such as Stable Diffusi
 
 Cloning the repo:
 ```
-git clone git@github.com:nicolas-dufour/cheese_classification_challenge.git
+git clone https://github.com/siyuan-zou/Chellenge_Cheese.git
 cd cheese_classification_challenge
 ```
 Install dependencies:
@@ -53,6 +53,8 @@ You can then run
 ```
 python generate.py dataset_generator=your_new_generator
 ```
+
+In the folder ```prompts``` we stored the propmts corresponding to different types of photos.
 
 ## Create submition
 To create a submition file, you can run 

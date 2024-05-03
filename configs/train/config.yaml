@@ -1,6 +1,6 @@
 defaults:
-  - model: dinov2
-  - dataset: simple_prompts
+  - model: dinov2_add_production
+  - dataset: production
   - optim: adamw
   - loss_fn: cross_entropy
 

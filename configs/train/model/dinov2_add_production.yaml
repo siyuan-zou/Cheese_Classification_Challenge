@@ -1,0 +1,5 @@
+instance:
+  _target_: models.dinov2.DINOv2_Add_Production
+  num_classes: ${dataset.num_classes}
+
+name: DINOV2_ADD_PRODUCTION

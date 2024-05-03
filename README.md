@@ -40,6 +40,28 @@ to change experiment name, you can do
 python train.py experiment_name=new_experiment_name
 ```
 
+### Download the datasets
+
+We have some generated dataset to increase the generalization ability of the model. For example, photos which describe the production process of each cheese[website][https://drive.google.com/drive/folders/1dhTiOr2a-649_3Gm9Gz-R5lVWEslJZcz]
+
+It can be downloaded directly using python package gdown. First do
+```
+pip install gdown
+```
+
+If you want to download the dataset within ```dataset/train```, make sure to do 
+```
+mkdir dataset/train/name_of_dataset
+gdown https://drive.google.com/drive/folders/1dhTiOr2a-649_3Gm9Gz-R5lVWEslJZcz -O path_to_name_of_dataset --folder --remaining-ok
+```
+
+If you want to merge the dateset with ```dataset/train/simple_prompts```, you can do 
+```
+gdown https://drive.google.com/drive/folders/1dhTiOr2a-649_3Gm9Gz-R5lVWEslJZcz -O path_to_simple_prompts --folder --remaining-ok
+```
+
+Make sure to set the google drive folder to be accessible by anyone with the link as a viewer. Make sure to copy the link that ends with the folder ID (1dhTiOr2a-649_3Gm9Gz-R5lVWEslJZcz)here without additional characters.
+
 ### Generating datasets
 You can generate datasets with the following command
 

@@ -21,3 +21,17 @@ class DinoV2Finetune(nn.Module):
         x = self.backbone(x)
         x = self.classifier(x)
         return x
+
+class DINOv2_Add_Production(nn.Module):
+    def __init__(self, num_classes):
+        super().__init__()
+        # Load the pretrained DINOv2 model
+        self.backbone = torch.load("checkpoints/20_DINOV2_simple_prompts.pt")
+        # self.backbone.head = nn.Identity()  # Replace the classification head with an identity function
+        # self.classifier = nn.Linear(self.backbone.norm.normalized_shape[0], num_classes)
+        
+    def forward(self, x):
+        # Forward pass through the model
+        x = self.backbone(x)
+        # x = self.classifier(x)
+        return x

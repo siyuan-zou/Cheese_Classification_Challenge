@@ -38,7 +38,7 @@ class SellingPromptsGenerator(DatasetGenerator):
         self.num_images_per_label = num_images_per_label
         self.type = "selling_prompts"
     def create_prompts(self, labels_names):
-        with open(self.prompts_path, "r") as f:
+        with open("/users/eleves-b/2022/siyuan.zou/DL_SiyuanZou/Chellenge_Cheese/prompts/selling.json", "r") as f:
             designed_prompts = json.load(f)
 
         prompts = {}
@@ -65,7 +65,7 @@ class ProductionPromptsGenerator(DatasetGenerator):
         self.num_images_per_label = num_images_per_label
         self.type = "production_prompts"
     def create_prompts(self, labels_names):
-        with open("prompts/production.json", "r") as f:
+        with open("/users/eleves-b/2022/siyuan.zou/DL_SiyuanZou/Chellenge_Cheese/prompts/production.json", "r") as f:
             designed_prompts = json.load(f)
 
         prompts = {}

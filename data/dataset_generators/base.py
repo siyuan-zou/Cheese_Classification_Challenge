@@ -20,7 +20,7 @@ class DatasetGenerator:
         self.output_dir = output_dir
 
     def generate(self, labels_names):
-        labels_prompts = self.create_prompts(labels_names)
+        labels_prompts = self.create_prompts(labels_names, self.prompts_path)
         for label, label_prompts in labels_prompts.items():
             image_id_0 = 0
             for prompt_metadata in label_prompts:
@@ -66,4 +66,4 @@ class DatasetGenerator:
         output_path = Path(self.output_dir) / label
         output_path.mkdir(parents=True, exist_ok=True)
         for i, image in enumerate(images):
-            image.save(output_path / f"{str(image_id_0 + i).zfill(6)}.jpg")
+            image.save(output_path / f"{self.type + str(image_id_0 + i).zfill(6)}.jpg")

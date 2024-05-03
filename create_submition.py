@@ -39,8 +39,14 @@ def create_submission(cfg):
     )
     # Load model and checkpoint
     model = hydra.utils.instantiate(cfg.model.instance).to(device)
-    checkpoint = torch.load(cfg.checkpoint_path)
+    checkpoint = torch.load(cfg.checkpoint_path, map_location=torch.device('cpu'))
+
+
+    # checkpoint = torch.load(cfg.checkpoint_path)
     print(f"Loading model from checkpoint: {cfg.checkpoint_path}")
+    # checkpoint = torch.load("checkpoints/DINOV2_simple_prompts_with_production_20.pt")
+    # print(f"Loading model from checkpoint: checkpoints/20_DINOV2_simple_prompts_with_production.pt")
+
     model.load_state_dict(checkpoint)
     class_names = sorted(os.listdir(cfg.dataset.train_path))
 
@@ -59,8 +65,7 @@ def create_submission(cfg):
                 pd.DataFrame({"id": image_names, "label": preds}),
             ]
         )
-    submission.to_csv(f"{cfg.root_dir}/submission.csv", index=False)
-
+    submission.to_csv(f"{cfg.root_dir}/submitions/submission.csv", index=False)
 
 if __name__ == "__main__":
     create_submission()

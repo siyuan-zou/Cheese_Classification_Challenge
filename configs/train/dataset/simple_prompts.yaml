@@ -9,19 +9,3 @@ num_workers: 8
 train_path: ${data_dir}/train/simple_prompts
 real_images_val_path: ${data_dir}/val
 test_path: ${data_dir}/test
-
-name: production
-num_classes: 37
-batch_size: 128
-num_workers: 8
-train_path: ${data_dir}/train/production
-real_images_val_path: ${data_dir}/val
-test_path: ${data_dir}/test
-
-name: selling
-num_classes: 37
-batch_size: 128
-num_workers: 8
-train_path: ${data_dir}/train/selling
-real_images_val_path: ${data_dir}/val
-test_path: ${data_dir}/test

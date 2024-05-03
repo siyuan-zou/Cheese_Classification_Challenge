@@ -1,10 +1,10 @@
 defaults:
-  - model: dinov2_add_production
-  - dataset: production
+  - model: dinov2
+  - dataset: simple_prompts
   - optim: adamw
   - loss_fn: cross_entropy
 
-epochs: 5
+epochs: 20
 
 datamodule:
   _target_: data.datamodule.DataModule
@@ -20,6 +20,7 @@ root_dir: ${hydra:runtime.cwd}
 checkpoint_path: ${root_dir}/checkpoints/${experiment_name}.pt
 
 experiment_name: ${model.name}_${dataset.name}
+# experiment_name: 20_DINOV2_simple_prompts
 hydra:
   run:
     dir: outputs/${hydra.job.name}/${now:%Y-%m-%d_%H-%M-%S}/

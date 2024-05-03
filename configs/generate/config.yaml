@@ -1,9 +1,9 @@
 defaults:
   - image_generator: sdxl_lightning
-  - dataset_generator: simple_prompts
+  - dataset_generator: selling_prompts
 
 data_dir: ${root_dir}/dataset
-root_dir:  ${hydra:runtime.cwd}
+root_dir: ${hydra:runtime.cwd}
 batch_size: 1
 
 labels_file: ${root_dir}/list_of_cheese.txt

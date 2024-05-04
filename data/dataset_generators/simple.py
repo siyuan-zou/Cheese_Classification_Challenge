@@ -79,3 +79,30 @@ class ProductionPromptsGenerator(DatasetGenerator):
                 }
             )
         return prompts
+    
+class ProductionLPromptsGenerator(DatasetGenerator):
+    def __init__(
+        self,
+        generator,
+        batch_size=1,
+        output_dir="dataset/train",
+        num_images_per_label=200,
+    ):
+        super().__init__(generator, batch_size, output_dir)
+        self.num_images_per_label = num_images_per_label
+        self.type = "production_long"
+    def create_prompts(self, labels_names):
+        with open("/users/eleves-b/2022/siyuan.zou/DL_SiyuanZou/Chellenge_Cheese/prompts/production_l.json", "r") as f:
+            designed_prompts = json.load(f)
+
+        prompts = {}
+        for label in labels_names:
+            prompts[label] = []
+            # remove accents of the label
+            prompts[label].append(
+                {
+                    "prompt": designed_prompts[label].replace(f"{label.lower()}", f"{label.lower()}" + " cheese"),
+                    "num_images": self.num_images_per_label,
+                }
+            )
+        return prompts

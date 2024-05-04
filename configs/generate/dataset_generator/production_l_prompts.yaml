@@ -1,0 +1,5 @@
+_target_: data.dataset_generators.simple.ProductionLPromptsGenerator
+generator: ${image_generator}
+batch_size: ${batch_size}
+output_dir: ${data_dir}/train/production_l_prompts
+num_images_per_label: 100

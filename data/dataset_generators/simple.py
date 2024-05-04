@@ -47,7 +47,7 @@ class SellingPromptsGenerator(DatasetGenerator):
             # remove accents of the label
             prompts[label].append(
                 {
-                    "prompt": designed_prompts[label],
+                    "prompt": designed_prompts[label].replace(f"{label.lower()}", f"{label.lower()}" + " cheese"),
                     "num_images": self.num_images_per_label,
                 }
             )
@@ -74,7 +74,7 @@ class ProductionPromptsGenerator(DatasetGenerator):
             # remove accents of the label
             prompts[label].append(
                 {
-                    "prompt": designed_prompts[label],
+                    "prompt": designed_prompts[label].replace(f"{label.lower()}", f"{label.lower()}" + " cheese"),
                     "num_images": self.num_images_per_label,
                 }
             )

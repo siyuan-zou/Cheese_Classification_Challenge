@@ -1,5 +1,6 @@
 import torch
 from diffusers import (
+    StableDiffusionPipeline,
     StableDiffusionXLPipeline,
     UNet2DConditionModel,
     EulerDiscreteScheduler,
@@ -9,6 +10,29 @@ from safetensors.torch import load_file
 
 device = "cuda" if torch.cuda.is_available() else "cpu"
 
+
+class StableDiffusionGenerator:
+    def __init__(
+        self,
+    ):
+        model_id = "stabilityai/stable-diffusion-2"
+
+        self.scheduler = EulerDiscreteScheduler.from_pretrained(model_id, subfolder="scheduler")
+        self.pipe = StableDiffusionXLPipeline.from_pretrained(
+            model_id, scheduler=self.scheduler, torch_dtype=torch.float16
+        ).to(device)
+        self.pipe.enable_attention_slicing()
+        self.pipe.set_progress_bar_config(disable=True)
+        self.num_inference_steps = 4
+        self.guidance_scale = 0
+
+    def generate(self, prompts):
+        images = self.pipe(
+            prompts,
+            num_inference_steps=self.num_inference_steps,
+            guidance_scale=self.guidance_scale,
+        ).images
+        return images
 
 class SDXLLightiningGenerator:
     def __init__(

@@ -6,3 +6,6 @@ einops
 diffusers
 transformers
 pandas
+accelerate
+scipy
+safetensors

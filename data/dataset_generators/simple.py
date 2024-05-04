@@ -2,6 +2,17 @@ from .base import DatasetGenerator
 import json
 import re
 # from unidecode import unidecode
+
+def clean_label(label):
+        if '-' in label:
+            # remove spaces around hyphen
+            return re.sub(r"\s*-\s*", "-", label)
+        elif label == "SCARMOZA":
+            return "SCAMORZA"
+        elif label == "TÊTE DE MOINES":
+            return "TÊTE DE MOINE"
+        else:
+            return label
 class SimplePromptsDatasetGenerator(DatasetGenerator):
     def __init__(
         self,
@@ -43,7 +54,7 @@ class SellingPromptsGenerator(DatasetGenerator):
 
         prompts = {}
         for label in labels_names:
-            label_c = self.clean_label(label)
+            label_c = clean_label(label)
             prompts[label] = []
             # remove accents of the label
             prompts[label].append(
@@ -71,7 +82,7 @@ class ProductionPromptsGenerator(DatasetGenerator):
 
         prompts = {}
         for label in labels_names:
-            label_c = self.clean_label(label)
+            label_c = clean_label(label)
             prompts[label] = []
             # remove accents of the label
             prompts[label].append(
@@ -99,9 +110,8 @@ class ProductionLPromptsGenerator(DatasetGenerator):
 
         prompts = {}
         for label in labels_names:
-            label_c = self.clean_label(label)
+            label_c = clean_label(label)
             prompts[label] = []
-            label = self.clean_label(label)
             # remove accents of the label
             prompts[label].append(
                 {
@@ -130,7 +140,7 @@ class FoodsPromptsGenerator(DatasetGenerator):
 
         prompts = {}
         for label in labels_names:
-            label_c = self.clean_label(label)
+            label_c = clean_label(label)
             prompts[label] = []
             for food_type in designed_prompts[label_c]:
                 prompts[label].append(

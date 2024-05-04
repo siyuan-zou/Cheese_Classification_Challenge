@@ -29,8 +29,7 @@ class StableDiffusionGenerator:
     def generate(self, prompts):
         images = self.pipe(
             prompts,
-            num_inference_steps=self.num_inference_steps,
-            guidance_scale=self.guidance_scale,
+            guidance_scale=7.5
         ).images
         return images
 

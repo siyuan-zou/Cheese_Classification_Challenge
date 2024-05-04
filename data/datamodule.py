@@ -32,17 +32,6 @@ class DataModule:
         self.num_workers = num_workers
         self.idx_to_class = {v: k for k, v in self.dataset.class_to_idx.items()}
 
-    def clean_label(label):
-        if '-' in label:
-            # remove spaces around hyphen
-            return re.sub(r"\s*-\s*", "-", label)
-        elif label == "SCARMOZA":
-            return "SCAMORZA"
-        elif label == "TÊTE DE MOINES":
-            return "TÊTE DE MOINE"
-        else:
-            return label
-
     def train_dataloader(self):
         return DataLoader(
             self.train_dataset,

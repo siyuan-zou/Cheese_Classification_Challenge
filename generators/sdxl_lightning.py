@@ -18,7 +18,7 @@ class StableDiffusionGenerator:
         model_id = "stabilityai/stable-diffusion-2"
 
         self.scheduler = EulerDiscreteScheduler.from_pretrained(model_id, subfolder="scheduler")
-        self.pipe = StableDiffusionXLPipeline.from_pretrained(
+        self.pipe = StableDiffusionPipeline.from_pretrained(
             model_id, scheduler=self.scheduler, torch_dtype=torch.float16
         ).to(device)
         self.pipe.enable_attention_slicing()

@@ -2,7 +2,6 @@ from .base import DatasetGenerator
 import json
 import re
 # from unidecode import unidecode
-
 class SimplePromptsDatasetGenerator(DatasetGenerator):
     def __init__(
         self,
@@ -44,11 +43,12 @@ class SellingPromptsGenerator(DatasetGenerator):
 
         prompts = {}
         for label in labels_names:
+            label_c = self.clean_label(label)
             prompts[label] = []
             # remove accents of the label
             prompts[label].append(
                 {
-                    "prompt": designed_prompts[label].replace(f"{label.lower()}", f"{label.lower()}" + " cheese"),
+                    "prompt": designed_prompts[label_c].replace(f"{label_c.lower()}", f"{label_c.lower()}" + " cheese"),
                     "num_images": self.num_images_per_label,
                 }
             )
@@ -71,11 +71,12 @@ class ProductionPromptsGenerator(DatasetGenerator):
 
         prompts = {}
         for label in labels_names:
+            label_c = self.clean_label(label)
             prompts[label] = []
             # remove accents of the label
             prompts[label].append(
                 {
-                    "prompt": designed_prompts[label].replace(f"{label.lower()}", f"{label.lower()}" + " cheese"),
+                    "prompt": designed_prompts[label_c].replace(f"{label_c.lower()}", f"{label_c.lower()}" + " cheese"),
                     "num_images": self.num_images_per_label,
                 }
             )
@@ -98,30 +99,20 @@ class ProductionLPromptsGenerator(DatasetGenerator):
 
         prompts = {}
         for label in labels_names:
+            label_c = self.clean_label(label)
             prompts[label] = []
+            label = self.clean_label(label)
             # remove accents of the label
-            if '-' in label:
-                # remove spaces around hyphen
-                label_cleaned = re.sub(r"\s*-\s*", "-", label)
-                # remove accents of the label
-                prompts[label].append(
-                    {
-                        "prompt": designed_prompts[label].replace(f"{label_cleaned.lower()}", f"{label_cleaned.lower()}" + " cheese"),
-                        "num_images": self.num_images_per_label,
-                    }
-                )
-            else:
-                # remove accents of the label
-                prompts[label].append(
-                    {
-                        "prompt": designed_prompts[label].replace(f"{label.lower()}", f"{label.lower()}" + " cheese"),
-                        "num_images": self.num_images_per_label,
-                    }
-                )
+            prompts[label].append(
+                {
+                    "prompt": designed_prompts[label_c].replace(f"{label_c.lower()}", f"{label_c.lower()}" + " cheese"),
+                    "num_images": self.num_images_per_label,
+                }
+            )
 
         return prompts
 
-class FoodsPromptsGenerator:
+class FoodsPromptsGenerator(DatasetGenerator):
     def __init__(
         self,
         generator,
@@ -139,14 +130,13 @@ class FoodsPromptsGenerator:
 
         prompts = {}
         for label in labels_names:
+            label_c = self.clean_label(label)
             prompts[label] = []
-            # remove accents of the label
-            for food_type in designed_prompts[label]:
+            for food_type in designed_prompts[label_c]:
                 prompts[label].append(
                     {
-                        "prompt": label + " cheese:" + food_type,
+                        "prompt": label_c.lower() + " cheese" + food_type,
                         "num_images": self.num_images_per_label,
                     }
                 )
-
         return prompts

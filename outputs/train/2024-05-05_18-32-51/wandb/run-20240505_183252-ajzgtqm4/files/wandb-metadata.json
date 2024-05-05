@@ -1,0 +1,148 @@
+{
+    "os": "Linux-5.14.0-362.24.2.el9_3.x86_64-x86_64-with-glibc2.34",
+    "python": "3.9.18",
+    "heartbeatAt": "2024-05-05T16:32:53.591780",
+    "startedAt": "2024-05-05T16:32:52.790073",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/users/eleves-b/2022/siyuan.zou/DL_SiyuanZou/train/Chellenge_Cheese/train.py",
+    "codePathLocal": null,
+    "codePath": "train.py",
+    "git": {
+        "remote": "https://github.com/siyuan-zou/Chellenge_Cheese.git",
+        "commit": "6882abb7a007f56c1714b7e714e783c14a895bc1"
+    },
+    "email": null,
+    "root": "/users/eleves-b/2022/siyuan.zou/DL_SiyuanZou/train/Chellenge_Cheese",
+    "host": "porsche.polytechnique.fr",
+    "username": "siyuan.zou",
+    "executable": "/usr/bin/python",
+    "cpu_count": 10,
+    "cpu_count_logical": 20,
+    "cpu_freq": {
+        "current": 3606.3817499999996,
+        "min": 800.0,
+        "max": 5300.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3700.0,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 3700.0,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 3700.0,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 3700.0,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 3700.0,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 1827.635,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 3700.0,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 3700.0,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 3700.0,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 3700.0,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 3700.0,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 3700.0,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 3700.0,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 3700.0,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 3700.0,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 3700.0,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 3700.0,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 3700.0,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 3700.0,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 3700.0,
+            "min": 800.0,
+            "max": 5300.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 3.990234375,
+            "used": 0.9498214721679688
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 3090",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 3090",
+            "memory_total": 25769803776
+        }
+    ],
+    "memory": {
+        "total": 125.03393173217773
+    }
+}

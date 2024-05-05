@@ -1,0 +1,29 @@
+Using cache found in /users/eleves-b/2022/siyuan.zou/.cache/torch/hub/facebookresearch_dinov2_main
+/users/eleves-b/2022/siyuan.zou/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+/users/eleves-b/2022/siyuan.zou/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/attention.py:33: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+/users/eleves-b/2022/siyuan.zou/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/block.py:40: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+[2024-05-05 18:27:46,019][dinov2][INFO] - using MLP layer as FFN
+  0%|                                                                                         | 0/20 [02:24<?, ?it/s]
+Traceback (most recent call last):
+  File "/users/eleves-b/2022/siyuan.zou/DL_SiyuanZou/train/Chellenge_Cheese/train.py", line 92, in <module>
+    train()
+  File "/users/eleves-b/2022/siyuan.zou/.local/lib/python3.9/site-packages/hydra/main.py", line 94, in decorated_main
+    _run_hydra(
+  File "/users/eleves-b/2022/siyuan.zou/.local/lib/python3.9/site-packages/hydra/_internal/utils.py", line 394, in _run_hydra
+    _run_app(
+  File "/users/eleves-b/2022/siyuan.zou/.local/lib/python3.9/site-packages/hydra/_internal/utils.py", line 457, in _run_app
+    run_and_report(
+  File "/users/eleves-b/2022/siyuan.zou/.local/lib/python3.9/site-packages/hydra/_internal/utils.py", line 220, in run_and_report
+    return func()
+  File "/users/eleves-b/2022/siyuan.zou/.local/lib/python3.9/site-packages/hydra/_internal/utils.py", line 458, in <lambda>
+    lambda: hydra.run(
+  File "/users/eleves-b/2022/siyuan.zou/.local/lib/python3.9/site-packages/hydra/_internal/hydra.py", line 119, in run
+    ret = run_job(
+  File "/users/eleves-b/2022/siyuan.zou/.local/lib/python3.9/site-packages/hydra/core/utils.py", line 186, in run_job
+    ret.return_value = task_function(task_cfg)
+  File "/users/eleves-b/2022/siyuan.zou/DL_SiyuanZou/train/Chellenge_Cheese/train.py", line 29, in train
+    logger.log({"loss": loss.detach().cpu().numpy()})
+KeyboardInterrupt

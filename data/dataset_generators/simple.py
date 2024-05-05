@@ -13,6 +13,7 @@ def clean_label(label):
             return "TÊTE DE MOINE"
         else:
             return label
+
 class SimplePromptsDatasetGenerator(DatasetGenerator):
     def __init__(
         self,
@@ -145,7 +146,7 @@ class FoodsPromptsGenerator(DatasetGenerator):
             for food_type in designed_prompts[label_c]:
                 prompts[label].append(
                     {
-                        "prompt": label_c.lower() + " cheese" + food_type,
+                        "prompt": label_c.lower() + " cheese " + food_type,
                         "num_images": self.num_images_per_label,
                     }
                 )

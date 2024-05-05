@@ -1,11 +1,11 @@
 image_generator:
-  _target_: generators.sdxl_lightning.SDXLLightiningGenerator
+  _target_: generators.sdxl_lightning.StableDiffusionGenerator
 dataset_generator:
-  _target_: data.dataset_generators.simple.ProductionPromptsGenerator
+  _target_: data.dataset_generators.simple.FoodsPromptsGenerator
   generator: ${image_generator}
   batch_size: ${batch_size}
-  output_dir: ${data_dir}/train/production_prompts
-  num_images_per_label: 100
+  output_dir: ${data_dir}/train/foods_prompts
+  num_images_per_label: 50
 data_dir: ${root_dir}/dataset
 root_dir: ${hydra:runtime.cwd}
 batch_size: 1

@@ -112,11 +112,11 @@ hydra:
     hydra:
     - hydra.mode=RUN
     task:
-    - dataset_generator=production_prompts
+    - dataset_generator=foods
   job:
     name: generate
     chdir: true
-    override_dirname: dataset_generator=production_prompts
+    override_dirname: dataset_generator=foods
     id: ???
     num: ???
     config_name: config
@@ -130,21 +130,21 @@ hydra:
   runtime:
     version: 1.3.2
     version_base: '1.1'
-    cwd: /users/eleves-b/2022/siyuan.zou/DL_SiyuanZou/Chellenge_Cheese
+    cwd: /users/eleves-b/2022/siyuan.zou/DL_SiyuanZou/food/Chellenge_Cheese
     config_sources:
     - path: hydra.conf
       schema: pkg
       provider: hydra
-    - path: /users/eleves-b/2022/siyuan.zou/DL_SiyuanZou/Chellenge_Cheese/configs/generate
+    - path: /users/eleves-b/2022/siyuan.zou/DL_SiyuanZou/food/Chellenge_Cheese/configs/generate
       schema: file
       provider: main
     - path: ''
       schema: structured
       provider: schema
-    output_dir: /users/eleves-b/2022/siyuan.zou/DL_SiyuanZou/Chellenge_Cheese/outputs/generate/2024-05-03_23-40-02
+    output_dir: /users/eleves-b/2022/siyuan.zou/DL_SiyuanZou/food/Chellenge_Cheese/outputs/generate/2024-05-05_00-17-24
     choices:
-      dataset_generator: production_prompts
-      image_generator: sdxl_lightning
+      dataset_generator: foods
+      image_generator: SD_2
       hydra/env: default
       hydra/callbacks: null
       hydra/job_logging: default

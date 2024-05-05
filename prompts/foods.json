@@ -1,5 +1,5 @@
 {
-    "BRIE DE MELUN": ["baked brie", "cheese platters", "baguettes", "croissants", "stuffed chicken", "brie and apple sandwiches"],
+    "BRIE DE MELUN": ["baked brie", "baguettes", "croissants", "stuffed chicken", "brie and apple sandwiches"],
     "CAMEMBERT": ["baked camembert", "fondue", "apple pie", "camembert and cranberry sandwiches", "camembert in puff pastry", "cheese boards"],
     "EPOISSES": ["burgundy dishes", "on toast", "in sauces", "with crackers", "in risotto", "on top of steak"],
     "FOURME D’AMBERT": ["blue cheese dressing", "burgers", "steak sauce", "pear salads", "with honey", "on pizza"],
@@ -31,7 +31,7 @@
     "MIMOLETTE": ["with apples", "grated on salads", "on charcuterie boards", "in omelets", "with pears", "on sandwiches"],
     "MAROILLES": ["quiche maroilles", "tarte au maroille", "melted on bread", "in fondues", "with potatoes", "in savory pastries"],
     "GRUYÈRE": ["fondue", "croque monsieur", "French onion soup", "in gratin dishes", "on sandwiches", "in pasta bakes"],
-    "MOTHAIS": ["with grapes", "on cheese platters", "with crusty bread", "in salads", "with figs", "in tartlets"],
+    "MOTHAIS": ["with grapes", "with crusty bread", "in salads", "with figs", "in tartlets"],
     "VACHERIN": ["fondue", "baked vacherin", "with potatoes", "in wraps", "on crackers", "with charcuterie"],
     "MOZZARELLA": ["caprese salad", "pizzas", "mozzarella sticks", "in lasagna", "on bruschetta", "in paninis"],
     "TÊTE DE MOINE": ["cheese rosettes", "on salads", "with fruit preserves", "in appetizers", "on cheese boards", "with nuts"],

@@ -1,0 +1,303 @@
+2024-05-05 18:27:43,557 INFO    StreamThr :829967 [internal.py:wandb_internal():86] W&B internal server running at pid: 829967, started at: 2024-05-05 18:27:43.556747
+2024-05-05 18:27:43,558 DEBUG   HandlerThread:829967 [handler.py:handle_request():146] handle_request: status
+2024-05-05 18:27:43,562 INFO    WriterThread:829967 [datastore.py:open_for_write():87] open: /users/eleves-b/2022/siyuan.zou/DL_SiyuanZou/train/Chellenge_Cheese/outputs/train/2024-05-05_18-27-42/wandb/run-20240505_182743-kw8gpkqe/run-kw8gpkqe.wandb
+2024-05-05 18:27:43,563 DEBUG   SenderThread:829967 [sender.py:send():379] send: header
+2024-05-05 18:27:43,581 DEBUG   SenderThread:829967 [sender.py:send():379] send: run
+2024-05-05 18:27:43,912 INFO    SenderThread:829967 [dir_watcher.py:__init__():211] watching files in: /users/eleves-b/2022/siyuan.zou/DL_SiyuanZou/train/Chellenge_Cheese/outputs/train/2024-05-05_18-27-42/wandb/run-20240505_182743-kw8gpkqe/files
+2024-05-05 18:27:43,912 INFO    SenderThread:829967 [sender.py:_start_run_threads():1124] run started: kw8gpkqe with start time 1714926463.559936
+2024-05-05 18:27:43,922 DEBUG   HandlerThread:829967 [handler.py:handle_request():146] handle_request: check_version
+2024-05-05 18:27:43,923 DEBUG   SenderThread:829967 [sender.py:send_request():406] send_request: check_version
+2024-05-05 18:27:44,006 DEBUG   HandlerThread:829967 [handler.py:handle_request():146] handle_request: run_start
+2024-05-05 18:27:44,025 DEBUG   HandlerThread:829967 [system_info.py:__init__():26] System info init
+2024-05-05 18:27:44,025 DEBUG   HandlerThread:829967 [system_info.py:__init__():41] System info init done
+2024-05-05 18:27:44,025 INFO    HandlerThread:829967 [system_monitor.py:start():194] Starting system monitor
+2024-05-05 18:27:44,026 INFO    SystemMonitor:829967 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-05-05 18:27:44,026 INFO    HandlerThread:829967 [system_monitor.py:probe():214] Collecting system info
+2024-05-05 18:27:44,027 INFO    SystemMonitor:829967 [interfaces.py:start():190] Started cpu monitoring
+2024-05-05 18:27:44,027 INFO    SystemMonitor:829967 [interfaces.py:start():190] Started disk monitoring
+2024-05-05 18:27:44,029 INFO    SystemMonitor:829967 [interfaces.py:start():190] Started gpu monitoring
+2024-05-05 18:27:44,029 INFO    SystemMonitor:829967 [interfaces.py:start():190] Started memory monitoring
+2024-05-05 18:27:44,030 INFO    SystemMonitor:829967 [interfaces.py:start():190] Started network monitoring
+2024-05-05 18:27:44,039 DEBUG   HandlerThread:829967 [system_info.py:probe():150] Probing system
+2024-05-05 18:27:44,042 DEBUG   HandlerThread:829967 [system_info.py:_probe_git():135] Probing git
+2024-05-05 18:27:44,058 DEBUG   HandlerThread:829967 [system_info.py:_probe_git():143] Probing git done
+2024-05-05 18:27:44,058 DEBUG   HandlerThread:829967 [system_info.py:probe():198] Probing system done
+2024-05-05 18:27:44,058 DEBUG   HandlerThread:829967 [system_monitor.py:probe():223] {'os': 'Linux-5.14.0-362.24.2.el9_3.x86_64-x86_64-with-glibc2.34', 'python': '3.9.18', 'heartbeatAt': '2024-05-05T16:27:44.039516', 'startedAt': '2024-05-05T16:27:43.541457', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/users/eleves-b/2022/siyuan.zou/DL_SiyuanZou/train/Chellenge_Cheese/train.py', 'codePathLocal': None, 'codePath': 'train.py', 'git': {'remote': 'https://github.com/siyuan-zou/Chellenge_Cheese.git', 'commit': '6882abb7a007f56c1714b7e714e783c14a895bc1'}, 'email': None, 'root': '/users/eleves-b/2022/siyuan.zou/DL_SiyuanZou/train/Chellenge_Cheese', 'host': 'volvo.polytechnique.fr', 'username': 'siyuan.zou', 'executable': '/usr/bin/python', 'cpu_count': 6, 'cpu_count_logical': 12, 'cpu_freq': {'current': 3766.53725, 'min': 800.0, 'max': 4800.0}, 'cpu_freq_per_core': [{'current': 3600.0, 'min': 800.0, 'max': 4800.0}, {'current': 3600.0, 'min': 800.0, 'max': 4800.0}, {'current': 3600.0, 'min': 800.0, 'max': 4800.0}, {'current': 3600.0, 'min': 800.0, 'max': 4800.0}, {'current': 3600.0, 'min': 800.0, 'max': 4800.0}, {'current': 3600.0, 'min': 800.0, 'max': 4800.0}, {'current': 3600.0, 'min': 800.0, 'max': 4800.0}, {'current': 3600.0, 'min': 800.0, 'max': 4800.0}, {'current': 4590.56, 'min': 800.0, 'max': 4800.0}, {'current': 3600.0, 'min': 800.0, 'max': 4800.0}, {'current': 3600.0, 'min': 800.0, 'max': 4800.0}, {'current': 3600.0, 'min': 800.0, 'max': 4800.0}], 'disk': {'/': {'total': 3.990234375, 'used': 0.9500808715820312}}, 'gpu': 'Quadro P2200', 'gpu_count': 1, 'gpu_devices': [{'name': 'Quadro P2200', 'memory_total': 5368709120}], 'memory': {'total': 62.37794876098633}}
+2024-05-05 18:27:44,059 INFO    HandlerThread:829967 [system_monitor.py:probe():224] Finished collecting system info
+2024-05-05 18:27:44,059 INFO    HandlerThread:829967 [system_monitor.py:probe():227] Publishing system info
+2024-05-05 18:27:44,060 INFO    HandlerThread:829967 [system_monitor.py:probe():229] Finished publishing system info
+2024-05-05 18:27:44,070 DEBUG   SenderThread:829967 [sender.py:send():379] send: files
+2024-05-05 18:27:44,070 INFO    SenderThread:829967 [sender.py:_save_file():1390] saving file wandb-metadata.json with policy now
+2024-05-05 18:27:44,259 DEBUG   HandlerThread:829967 [handler.py:handle_request():146] handle_request: python_packages
+2024-05-05 18:27:44,260 DEBUG   SenderThread:829967 [sender.py:send_request():406] send_request: python_packages
+2024-05-05 18:27:44,260 DEBUG   HandlerThread:829967 [handler.py:handle_request():146] handle_request: stop_status
+2024-05-05 18:27:44,261 DEBUG   HandlerThread:829967 [handler.py:handle_request():146] handle_request: internal_messages
+2024-05-05 18:27:44,261 DEBUG   SenderThread:829967 [sender.py:send_request():406] send_request: stop_status
+2024-05-05 18:27:44,441 DEBUG   SenderThread:829967 [sender.py:send():379] send: telemetry
+2024-05-05 18:27:44,632 INFO    wandb-upload_0:829967 [upload_job.py:push():131] Uploaded file /tmp/tmpindna9ncwandb/lvl7exwm-wandb-metadata.json
+2024-05-05 18:27:44,915 INFO    Thread-12 :829967 [dir_watcher.py:_on_file_created():271] file/dir created: /users/eleves-b/2022/siyuan.zou/DL_SiyuanZou/train/Chellenge_Cheese/outputs/train/2024-05-05_18-27-42/wandb/run-20240505_182743-kw8gpkqe/files/wandb-metadata.json
+2024-05-05 18:27:44,915 INFO    Thread-12 :829967 [dir_watcher.py:_on_file_created():271] file/dir created: /users/eleves-b/2022/siyuan.zou/DL_SiyuanZou/train/Chellenge_Cheese/outputs/train/2024-05-05_18-27-42/wandb/run-20240505_182743-kw8gpkqe/files/requirements.txt
+2024-05-05 18:27:44,915 INFO    Thread-12 :829967 [dir_watcher.py:_on_file_created():271] file/dir created: /users/eleves-b/2022/siyuan.zou/DL_SiyuanZou/train/Chellenge_Cheese/outputs/train/2024-05-05_18-27-42/wandb/run-20240505_182743-kw8gpkqe/files/output.log
+2024-05-05 18:27:46,915 INFO    Thread-12 :829967 [dir_watcher.py:_on_file_modified():288] file/dir modified: /users/eleves-b/2022/siyuan.zou/DL_SiyuanZou/train/Chellenge_Cheese/outputs/train/2024-05-05_18-27-42/wandb/run-20240505_182743-kw8gpkqe/files/output.log
+2024-05-05 18:27:48,922 INFO    Thread-12 :829967 [dir_watcher.py:_on_file_modified():288] file/dir modified: /users/eleves-b/2022/siyuan.zou/DL_SiyuanZou/train/Chellenge_Cheese/outputs/train/2024-05-05_18-27-42/wandb/run-20240505_182743-kw8gpkqe/files/output.log
+2024-05-05 18:27:49,021 DEBUG   HandlerThread:829967 [handler.py:handle_request():146] handle_request: status_report
+2024-05-05 18:27:50,339 DEBUG   SenderThread:829967 [sender.py:send():379] send: telemetry
+2024-05-05 18:27:50,616 DEBUG   SenderThread:829967 [sender.py:send():379] send: telemetry
+2024-05-05 18:27:51,669 DEBUG   SenderThread:829967 [sender.py:send():379] send: telemetry
+2024-05-05 18:27:54,669 DEBUG   HandlerThread:829967 [handler.py:handle_request():146] handle_request: status_report
+2024-05-05 18:27:56,929 INFO    Thread-12 :829967 [dir_watcher.py:_on_file_modified():288] file/dir modified: /users/eleves-b/2022/siyuan.zou/DL_SiyuanZou/train/Chellenge_Cheese/outputs/train/2024-05-05_18-27-42/wandb/run-20240505_182743-kw8gpkqe/files/output.log
+2024-05-05 18:27:59,260 DEBUG   HandlerThread:829967 [handler.py:handle_request():146] handle_request: stop_status
+2024-05-05 18:27:59,260 DEBUG   HandlerThread:829967 [handler.py:handle_request():146] handle_request: internal_messages
+2024-05-05 18:27:59,261 DEBUG   SenderThread:829967 [sender.py:send_request():406] send_request: stop_status
+2024-05-05 18:28:00,451 DEBUG   HandlerThread:829967 [handler.py:handle_request():146] handle_request: status_report
+2024-05-05 18:28:04,740 DEBUG   HandlerThread:829967 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-05 18:28:04,740 DEBUG   SenderThread:829967 [sender.py:send():379] send: history
+2024-05-05 18:28:04,740 DEBUG   SenderThread:829967 [sender.py:send_request():406] send_request: summary_record
+2024-05-05 18:28:04,745 INFO    SenderThread:829967 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-05 18:28:04,933 INFO    Thread-12 :829967 [dir_watcher.py:_on_file_created():271] file/dir created: /users/eleves-b/2022/siyuan.zou/DL_SiyuanZou/train/Chellenge_Cheese/outputs/train/2024-05-05_18-27-42/wandb/run-20240505_182743-kw8gpkqe/files/wandb-summary.json
+2024-05-05 18:28:05,745 DEBUG   HandlerThread:829967 [handler.py:handle_request():146] handle_request: status_report
+2024-05-05 18:28:10,746 DEBUG   HandlerThread:829967 [handler.py:handle_request():146] handle_request: status_report
+2024-05-05 18:28:11,543 DEBUG   HandlerThread:829967 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-05 18:28:11,544 DEBUG   SenderThread:829967 [sender.py:send():379] send: history
+2024-05-05 18:28:11,544 DEBUG   SenderThread:829967 [sender.py:send_request():406] send_request: summary_record
+2024-05-05 18:28:11,546 INFO    SenderThread:829967 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-05 18:28:11,937 INFO    Thread-12 :829967 [dir_watcher.py:_on_file_modified():288] file/dir modified: /users/eleves-b/2022/siyuan.zou/DL_SiyuanZou/train/Chellenge_Cheese/outputs/train/2024-05-05_18-27-42/wandb/run-20240505_182743-kw8gpkqe/files/wandb-summary.json
+2024-05-05 18:28:14,260 DEBUG   HandlerThread:829967 [handler.py:handle_request():146] handle_request: stop_status
+2024-05-05 18:28:14,260 DEBUG   SenderThread:829967 [sender.py:send_request():406] send_request: stop_status
+2024-05-05 18:28:14,261 DEBUG   HandlerThread:829967 [handler.py:handle_request():146] handle_request: internal_messages
+2024-05-05 18:28:16,426 DEBUG   HandlerThread:829967 [handler.py:handle_request():146] handle_request: status_report
+2024-05-05 18:28:16,941 INFO    Thread-12 :829967 [dir_watcher.py:_on_file_modified():288] file/dir modified: /users/eleves-b/2022/siyuan.zou/DL_SiyuanZou/train/Chellenge_Cheese/outputs/train/2024-05-05_18-27-42/wandb/run-20240505_182743-kw8gpkqe/files/config.yaml
+2024-05-05 18:28:18,150 DEBUG   HandlerThread:829967 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-05 18:28:18,150 DEBUG   SenderThread:829967 [sender.py:send():379] send: history
+2024-05-05 18:28:18,151 DEBUG   SenderThread:829967 [sender.py:send_request():406] send_request: summary_record
+2024-05-05 18:28:18,152 INFO    SenderThread:829967 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-05 18:28:18,942 INFO    Thread-12 :829967 [dir_watcher.py:_on_file_modified():288] file/dir modified: /users/eleves-b/2022/siyuan.zou/DL_SiyuanZou/train/Chellenge_Cheese/outputs/train/2024-05-05_18-27-42/wandb/run-20240505_182743-kw8gpkqe/files/wandb-summary.json
+2024-05-05 18:28:22,153 DEBUG   HandlerThread:829967 [handler.py:handle_request():146] handle_request: status_report
+2024-05-05 18:28:24,752 DEBUG   HandlerThread:829967 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-05 18:28:24,753 DEBUG   SenderThread:829967 [sender.py:send():379] send: history
+2024-05-05 18:28:24,753 DEBUG   SenderThread:829967 [sender.py:send_request():406] send_request: summary_record
+2024-05-05 18:28:24,756 INFO    SenderThread:829967 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-05 18:28:24,945 INFO    Thread-12 :829967 [dir_watcher.py:_on_file_modified():288] file/dir modified: /users/eleves-b/2022/siyuan.zou/DL_SiyuanZou/train/Chellenge_Cheese/outputs/train/2024-05-05_18-27-42/wandb/run-20240505_182743-kw8gpkqe/files/wandb-summary.json
+2024-05-05 18:28:27,756 DEBUG   HandlerThread:829967 [handler.py:handle_request():146] handle_request: status_report
+2024-05-05 18:28:29,260 DEBUG   HandlerThread:829967 [handler.py:handle_request():146] handle_request: stop_status
+2024-05-05 18:28:29,260 DEBUG   SenderThread:829967 [sender.py:send_request():406] send_request: stop_status
+2024-05-05 18:28:29,261 DEBUG   HandlerThread:829967 [handler.py:handle_request():146] handle_request: internal_messages
+2024-05-05 18:28:31,478 DEBUG   HandlerThread:829967 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-05 18:28:31,478 DEBUG   SenderThread:829967 [sender.py:send():379] send: history
+2024-05-05 18:28:31,479 DEBUG   SenderThread:829967 [sender.py:send_request():406] send_request: summary_record
+2024-05-05 18:28:31,481 INFO    SenderThread:829967 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-05 18:28:31,949 INFO    Thread-12 :829967 [dir_watcher.py:_on_file_modified():288] file/dir modified: /users/eleves-b/2022/siyuan.zou/DL_SiyuanZou/train/Chellenge_Cheese/outputs/train/2024-05-05_18-27-42/wandb/run-20240505_182743-kw8gpkqe/files/wandb-summary.json
+2024-05-05 18:28:33,481 DEBUG   HandlerThread:829967 [handler.py:handle_request():146] handle_request: status_report
+2024-05-05 18:28:38,284 DEBUG   HandlerThread:829967 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-05 18:28:38,285 DEBUG   SenderThread:829967 [sender.py:send():379] send: history
+2024-05-05 18:28:38,285 DEBUG   SenderThread:829967 [sender.py:send_request():406] send_request: summary_record
+2024-05-05 18:28:38,287 INFO    SenderThread:829967 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-05 18:28:38,952 INFO    Thread-12 :829967 [dir_watcher.py:_on_file_modified():288] file/dir modified: /users/eleves-b/2022/siyuan.zou/DL_SiyuanZou/train/Chellenge_Cheese/outputs/train/2024-05-05_18-27-42/wandb/run-20240505_182743-kw8gpkqe/files/wandb-summary.json
+2024-05-05 18:28:39,287 DEBUG   HandlerThread:829967 [handler.py:handle_request():146] handle_request: status_report
+2024-05-05 18:28:44,031 DEBUG   SystemMonitor:829967 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-05-05 18:28:44,031 DEBUG   SenderThread:829967 [sender.py:send():379] send: stats
+2024-05-05 18:28:44,260 DEBUG   HandlerThread:829967 [handler.py:handle_request():146] handle_request: stop_status
+2024-05-05 18:28:44,260 DEBUG   SenderThread:829967 [sender.py:send_request():406] send_request: stop_status
+2024-05-05 18:28:44,261 DEBUG   HandlerThread:829967 [handler.py:handle_request():146] handle_request: internal_messages
+2024-05-05 18:28:44,404 DEBUG   HandlerThread:829967 [handler.py:handle_request():146] handle_request: status_report
+2024-05-05 18:28:45,133 DEBUG   HandlerThread:829967 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-05 18:28:45,134 DEBUG   SenderThread:829967 [sender.py:send():379] send: history
+2024-05-05 18:28:45,134 DEBUG   SenderThread:829967 [sender.py:send_request():406] send_request: summary_record
+2024-05-05 18:28:45,136 INFO    SenderThread:829967 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-05 18:28:45,957 INFO    Thread-12 :829967 [dir_watcher.py:_on_file_modified():288] file/dir modified: /users/eleves-b/2022/siyuan.zou/DL_SiyuanZou/train/Chellenge_Cheese/outputs/train/2024-05-05_18-27-42/wandb/run-20240505_182743-kw8gpkqe/files/wandb-summary.json
+2024-05-05 18:28:50,137 DEBUG   HandlerThread:829967 [handler.py:handle_request():146] handle_request: status_report
+2024-05-05 18:28:51,941 DEBUG   HandlerThread:829967 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-05 18:28:51,942 DEBUG   SenderThread:829967 [sender.py:send():379] send: history
+2024-05-05 18:28:51,942 DEBUG   SenderThread:829967 [sender.py:send_request():406] send_request: summary_record
+2024-05-05 18:28:51,945 INFO    SenderThread:829967 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-05 18:28:51,960 INFO    Thread-12 :829967 [dir_watcher.py:_on_file_modified():288] file/dir modified: /users/eleves-b/2022/siyuan.zou/DL_SiyuanZou/train/Chellenge_Cheese/outputs/train/2024-05-05_18-27-42/wandb/run-20240505_182743-kw8gpkqe/files/wandb-summary.json
+2024-05-05 18:28:55,945 DEBUG   HandlerThread:829967 [handler.py:handle_request():146] handle_request: status_report
+2024-05-05 18:28:58,741 DEBUG   HandlerThread:829967 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-05 18:28:58,741 DEBUG   SenderThread:829967 [sender.py:send():379] send: history
+2024-05-05 18:28:58,741 DEBUG   SenderThread:829967 [sender.py:send_request():406] send_request: summary_record
+2024-05-05 18:28:58,743 INFO    SenderThread:829967 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-05 18:28:58,963 INFO    Thread-12 :829967 [dir_watcher.py:_on_file_modified():288] file/dir modified: /users/eleves-b/2022/siyuan.zou/DL_SiyuanZou/train/Chellenge_Cheese/outputs/train/2024-05-05_18-27-42/wandb/run-20240505_182743-kw8gpkqe/files/wandb-summary.json
+2024-05-05 18:28:59,260 DEBUG   HandlerThread:829967 [handler.py:handle_request():146] handle_request: stop_status
+2024-05-05 18:28:59,260 DEBUG   SenderThread:829967 [sender.py:send_request():406] send_request: stop_status
+2024-05-05 18:28:59,261 DEBUG   HandlerThread:829967 [handler.py:handle_request():146] handle_request: internal_messages
+2024-05-05 18:29:01,395 DEBUG   HandlerThread:829967 [handler.py:handle_request():146] handle_request: status_report
+2024-05-05 18:29:05,489 DEBUG   HandlerThread:829967 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-05 18:29:05,490 DEBUG   SenderThread:829967 [sender.py:send():379] send: history
+2024-05-05 18:29:05,490 DEBUG   SenderThread:829967 [sender.py:send_request():406] send_request: summary_record
+2024-05-05 18:29:05,492 INFO    SenderThread:829967 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-05 18:29:05,967 INFO    Thread-12 :829967 [dir_watcher.py:_on_file_modified():288] file/dir modified: /users/eleves-b/2022/siyuan.zou/DL_SiyuanZou/train/Chellenge_Cheese/outputs/train/2024-05-05_18-27-42/wandb/run-20240505_182743-kw8gpkqe/files/wandb-summary.json
+2024-05-05 18:29:06,493 DEBUG   HandlerThread:829967 [handler.py:handle_request():146] handle_request: status_report
+2024-05-05 18:29:11,493 DEBUG   HandlerThread:829967 [handler.py:handle_request():146] handle_request: status_report
+2024-05-05 18:29:12,237 DEBUG   HandlerThread:829967 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-05 18:29:12,238 DEBUG   SenderThread:829967 [sender.py:send():379] send: history
+2024-05-05 18:29:12,238 DEBUG   SenderThread:829967 [sender.py:send_request():406] send_request: summary_record
+2024-05-05 18:29:12,240 INFO    SenderThread:829967 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-05 18:29:12,971 INFO    Thread-12 :829967 [dir_watcher.py:_on_file_modified():288] file/dir modified: /users/eleves-b/2022/siyuan.zou/DL_SiyuanZou/train/Chellenge_Cheese/outputs/train/2024-05-05_18-27-42/wandb/run-20240505_182743-kw8gpkqe/files/wandb-summary.json
+2024-05-05 18:29:14,032 DEBUG   SenderThread:829967 [sender.py:send():379] send: stats
+2024-05-05 18:29:14,260 DEBUG   HandlerThread:829967 [handler.py:handle_request():146] handle_request: stop_status
+2024-05-05 18:29:14,261 DEBUG   SenderThread:829967 [sender.py:send_request():406] send_request: stop_status
+2024-05-05 18:29:14,262 DEBUG   HandlerThread:829967 [handler.py:handle_request():146] handle_request: internal_messages
+2024-05-05 18:29:17,472 DEBUG   HandlerThread:829967 [handler.py:handle_request():146] handle_request: status_report
+2024-05-05 18:29:18,977 DEBUG   HandlerThread:829967 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-05 18:29:18,978 DEBUG   SenderThread:829967 [sender.py:send():379] send: history
+2024-05-05 18:29:18,978 DEBUG   SenderThread:829967 [sender.py:send_request():406] send_request: summary_record
+2024-05-05 18:29:18,980 INFO    SenderThread:829967 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-05 18:29:19,976 INFO    Thread-12 :829967 [dir_watcher.py:_on_file_modified():288] file/dir modified: /users/eleves-b/2022/siyuan.zou/DL_SiyuanZou/train/Chellenge_Cheese/outputs/train/2024-05-05_18-27-42/wandb/run-20240505_182743-kw8gpkqe/files/wandb-summary.json
+2024-05-05 18:29:22,980 DEBUG   HandlerThread:829967 [handler.py:handle_request():146] handle_request: status_report
+2024-05-05 18:29:25,717 DEBUG   HandlerThread:829967 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-05 18:29:25,717 DEBUG   SenderThread:829967 [sender.py:send():379] send: history
+2024-05-05 18:29:25,717 DEBUG   SenderThread:829967 [sender.py:send_request():406] send_request: summary_record
+2024-05-05 18:29:25,719 INFO    SenderThread:829967 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-05 18:29:25,978 INFO    Thread-12 :829967 [dir_watcher.py:_on_file_modified():288] file/dir modified: /users/eleves-b/2022/siyuan.zou/DL_SiyuanZou/train/Chellenge_Cheese/outputs/train/2024-05-05_18-27-42/wandb/run-20240505_182743-kw8gpkqe/files/wandb-summary.json
+2024-05-05 18:29:28,720 DEBUG   HandlerThread:829967 [handler.py:handle_request():146] handle_request: status_report
+2024-05-05 18:29:29,260 DEBUG   HandlerThread:829967 [handler.py:handle_request():146] handle_request: stop_status
+2024-05-05 18:29:29,261 DEBUG   SenderThread:829967 [sender.py:send_request():406] send_request: stop_status
+2024-05-05 18:29:29,261 DEBUG   HandlerThread:829967 [handler.py:handle_request():146] handle_request: internal_messages
+2024-05-05 18:29:32,500 DEBUG   HandlerThread:829967 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-05 18:29:32,500 DEBUG   SenderThread:829967 [sender.py:send():379] send: history
+2024-05-05 18:29:32,501 DEBUG   SenderThread:829967 [sender.py:send_request():406] send_request: summary_record
+2024-05-05 18:29:32,503 INFO    SenderThread:829967 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-05 18:29:32,983 INFO    Thread-12 :829967 [dir_watcher.py:_on_file_modified():288] file/dir modified: /users/eleves-b/2022/siyuan.zou/DL_SiyuanZou/train/Chellenge_Cheese/outputs/train/2024-05-05_18-27-42/wandb/run-20240505_182743-kw8gpkqe/files/wandb-summary.json
+2024-05-05 18:29:34,503 DEBUG   HandlerThread:829967 [handler.py:handle_request():146] handle_request: status_report
+2024-05-05 18:29:39,243 DEBUG   HandlerThread:829967 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-05 18:29:39,243 DEBUG   SenderThread:829967 [sender.py:send():379] send: history
+2024-05-05 18:29:39,244 DEBUG   SenderThread:829967 [sender.py:send_request():406] send_request: summary_record
+2024-05-05 18:29:39,246 INFO    SenderThread:829967 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-05 18:29:39,986 INFO    Thread-12 :829967 [dir_watcher.py:_on_file_modified():288] file/dir modified: /users/eleves-b/2022/siyuan.zou/DL_SiyuanZou/train/Chellenge_Cheese/outputs/train/2024-05-05_18-27-42/wandb/run-20240505_182743-kw8gpkqe/files/wandb-summary.json
+2024-05-05 18:29:40,246 DEBUG   HandlerThread:829967 [handler.py:handle_request():146] handle_request: status_report
+2024-05-05 18:29:44,032 DEBUG   SenderThread:829967 [sender.py:send():379] send: stats
+2024-05-05 18:29:44,261 DEBUG   HandlerThread:829967 [handler.py:handle_request():146] handle_request: stop_status
+2024-05-05 18:29:44,261 DEBUG   SenderThread:829967 [sender.py:send_request():406] send_request: stop_status
+2024-05-05 18:29:44,261 DEBUG   HandlerThread:829967 [handler.py:handle_request():146] handle_request: internal_messages
+2024-05-05 18:29:45,438 DEBUG   HandlerThread:829967 [handler.py:handle_request():146] handle_request: status_report
+2024-05-05 18:29:45,877 DEBUG   HandlerThread:829967 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-05 18:29:45,878 DEBUG   SenderThread:829967 [sender.py:send():379] send: history
+2024-05-05 18:29:45,878 DEBUG   SenderThread:829967 [sender.py:send_request():406] send_request: summary_record
+2024-05-05 18:29:45,880 INFO    SenderThread:829967 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-05 18:29:45,990 INFO    Thread-12 :829967 [dir_watcher.py:_on_file_modified():288] file/dir modified: /users/eleves-b/2022/siyuan.zou/DL_SiyuanZou/train/Chellenge_Cheese/outputs/train/2024-05-05_18-27-42/wandb/run-20240505_182743-kw8gpkqe/files/wandb-summary.json
+2024-05-05 18:29:50,880 DEBUG   HandlerThread:829967 [handler.py:handle_request():146] handle_request: status_report
+2024-05-05 18:29:52,534 DEBUG   HandlerThread:829967 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-05 18:29:52,535 DEBUG   SenderThread:829967 [sender.py:send():379] send: history
+2024-05-05 18:29:52,535 DEBUG   SenderThread:829967 [sender.py:send_request():406] send_request: summary_record
+2024-05-05 18:29:52,537 INFO    SenderThread:829967 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-05 18:29:52,994 INFO    Thread-12 :829967 [dir_watcher.py:_on_file_modified():288] file/dir modified: /users/eleves-b/2022/siyuan.zou/DL_SiyuanZou/train/Chellenge_Cheese/outputs/train/2024-05-05_18-27-42/wandb/run-20240505_182743-kw8gpkqe/files/wandb-summary.json
+2024-05-05 18:29:56,538 DEBUG   HandlerThread:829967 [handler.py:handle_request():146] handle_request: status_report
+2024-05-05 18:29:59,261 DEBUG   HandlerThread:829967 [handler.py:handle_request():146] handle_request: stop_status
+2024-05-05 18:29:59,261 DEBUG   HandlerThread:829967 [handler.py:handle_request():146] handle_request: internal_messages
+2024-05-05 18:29:59,261 DEBUG   SenderThread:829967 [sender.py:send_request():406] send_request: stop_status
+2024-05-05 18:29:59,391 DEBUG   HandlerThread:829967 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-05 18:29:59,503 DEBUG   SenderThread:829967 [sender.py:send():379] send: history
+2024-05-05 18:29:59,504 DEBUG   SenderThread:829967 [sender.py:send_request():406] send_request: summary_record
+2024-05-05 18:29:59,505 INFO    SenderThread:829967 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-05 18:29:59,997 INFO    Thread-12 :829967 [dir_watcher.py:_on_file_modified():288] file/dir modified: /users/eleves-b/2022/siyuan.zou/DL_SiyuanZou/train/Chellenge_Cheese/outputs/train/2024-05-05_18-27-42/wandb/run-20240505_182743-kw8gpkqe/files/wandb-summary.json
+2024-05-05 18:30:02,506 DEBUG   HandlerThread:829967 [handler.py:handle_request():146] handle_request: status_report
+2024-05-05 18:30:06,183 DEBUG   HandlerThread:829967 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-05 18:30:06,184 DEBUG   SenderThread:829967 [sender.py:send():379] send: history
+2024-05-05 18:30:06,184 DEBUG   SenderThread:829967 [sender.py:send_request():406] send_request: summary_record
+2024-05-05 18:30:06,187 INFO    SenderThread:829967 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-05 18:30:07,001 INFO    Thread-12 :829967 [dir_watcher.py:_on_file_modified():288] file/dir modified: /users/eleves-b/2022/siyuan.zou/DL_SiyuanZou/train/Chellenge_Cheese/outputs/train/2024-05-05_18-27-42/wandb/run-20240505_182743-kw8gpkqe/files/wandb-summary.json
+2024-05-05 18:30:08,187 DEBUG   HandlerThread:829967 [handler.py:handle_request():146] handle_request: status_report
+2024-05-05 18:30:12,829 DEBUG   HandlerThread:829967 [handler.py:handle_request():146] handle_request: partial_history
+2024-05-05 18:30:12,830 DEBUG   SenderThread:829967 [sender.py:send():379] send: history
+2024-05-05 18:30:12,830 DEBUG   SenderThread:829967 [sender.py:send_request():406] send_request: summary_record
+2024-05-05 18:30:12,833 INFO    SenderThread:829967 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-05 18:30:13,005 INFO    Thread-12 :829967 [dir_watcher.py:_on_file_modified():288] file/dir modified: /users/eleves-b/2022/siyuan.zou/DL_SiyuanZou/train/Chellenge_Cheese/outputs/train/2024-05-05_18-27-42/wandb/run-20240505_182743-kw8gpkqe/files/wandb-summary.json
+2024-05-05 18:30:13,834 DEBUG   HandlerThread:829967 [handler.py:handle_request():146] handle_request: status_report
+2024-05-05 18:30:14,033 DEBUG   SenderThread:829967 [sender.py:send():379] send: stats
+2024-05-05 18:30:14,261 DEBUG   HandlerThread:829967 [handler.py:handle_request():146] handle_request: stop_status
+2024-05-05 18:30:14,261 DEBUG   SenderThread:829967 [sender.py:send_request():406] send_request: stop_status
+2024-05-05 18:30:14,263 DEBUG   HandlerThread:829967 [handler.py:handle_request():146] handle_request: internal_messages
+2024-05-05 18:30:19,419 DEBUG   HandlerThread:829967 [handler.py:handle_request():146] handle_request: status_report
+2024-05-05 18:30:19,629 DEBUG   SenderThread:829967 [sender.py:send():379] send: exit
+2024-05-05 18:30:19,629 INFO    SenderThread:829967 [sender.py:send_exit():586] handling exit code: 255
+2024-05-05 18:30:19,629 INFO    SenderThread:829967 [sender.py:send_exit():588] handling runtime: 155
+2024-05-05 18:30:19,631 INFO    SenderThread:829967 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-05 18:30:19,631 INFO    SenderThread:829967 [sender.py:send_exit():594] send defer
+2024-05-05 18:30:19,632 DEBUG   HandlerThread:829967 [handler.py:handle_request():146] handle_request: defer
+2024-05-05 18:30:19,632 INFO    HandlerThread:829967 [handler.py:handle_request_defer():172] handle defer: 0
+2024-05-05 18:30:19,632 DEBUG   SenderThread:829967 [sender.py:send_request():406] send_request: defer
+2024-05-05 18:30:19,633 INFO    SenderThread:829967 [sender.py:send_request_defer():610] handle sender defer: 0
+2024-05-05 18:30:19,633 INFO    SenderThread:829967 [sender.py:transition_state():614] send defer: 1
+2024-05-05 18:30:19,633 DEBUG   HandlerThread:829967 [handler.py:handle_request():146] handle_request: defer
+2024-05-05 18:30:19,633 INFO    HandlerThread:829967 [handler.py:handle_request_defer():172] handle defer: 1
+2024-05-05 18:30:19,633 DEBUG   SenderThread:829967 [sender.py:send_request():406] send_request: defer
+2024-05-05 18:30:19,634 INFO    SenderThread:829967 [sender.py:send_request_defer():610] handle sender defer: 1
+2024-05-05 18:30:19,634 INFO    SenderThread:829967 [sender.py:transition_state():614] send defer: 2
+2024-05-05 18:30:19,634 DEBUG   HandlerThread:829967 [handler.py:handle_request():146] handle_request: defer
+2024-05-05 18:30:19,635 INFO    HandlerThread:829967 [handler.py:handle_request_defer():172] handle defer: 2
+2024-05-05 18:30:19,635 INFO    HandlerThread:829967 [system_monitor.py:finish():203] Stopping system monitor
+2024-05-05 18:30:19,635 DEBUG   SystemMonitor:829967 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-05-05 18:30:19,635 DEBUG   SystemMonitor:829967 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-05-05 18:30:19,635 INFO    HandlerThread:829967 [interfaces.py:finish():202] Joined cpu monitor
+2024-05-05 18:30:19,636 INFO    HandlerThread:829967 [interfaces.py:finish():202] Joined disk monitor
+2024-05-05 18:30:19,672 INFO    HandlerThread:829967 [interfaces.py:finish():202] Joined gpu monitor
+2024-05-05 18:30:19,672 INFO    HandlerThread:829967 [interfaces.py:finish():202] Joined memory monitor
+2024-05-05 18:30:19,672 INFO    HandlerThread:829967 [interfaces.py:finish():202] Joined network monitor
+2024-05-05 18:30:19,673 DEBUG   SenderThread:829967 [sender.py:send_request():406] send_request: defer
+2024-05-05 18:30:19,674 INFO    SenderThread:829967 [sender.py:send_request_defer():610] handle sender defer: 2
+2024-05-05 18:30:19,674 INFO    SenderThread:829967 [sender.py:transition_state():614] send defer: 3
+2024-05-05 18:30:19,674 DEBUG   SenderThread:829967 [sender.py:send():379] send: stats
+2024-05-05 18:30:19,674 DEBUG   HandlerThread:829967 [handler.py:handle_request():146] handle_request: defer
+2024-05-05 18:30:19,675 INFO    HandlerThread:829967 [handler.py:handle_request_defer():172] handle defer: 3
+2024-05-05 18:30:19,675 DEBUG   SenderThread:829967 [sender.py:send_request():406] send_request: defer
+2024-05-05 18:30:19,676 INFO    SenderThread:829967 [sender.py:send_request_defer():610] handle sender defer: 3
+2024-05-05 18:30:19,676 INFO    SenderThread:829967 [sender.py:transition_state():614] send defer: 4
+2024-05-05 18:30:19,676 DEBUG   HandlerThread:829967 [handler.py:handle_request():146] handle_request: defer
+2024-05-05 18:30:19,676 INFO    HandlerThread:829967 [handler.py:handle_request_defer():172] handle defer: 4
+2024-05-05 18:30:19,676 DEBUG   SenderThread:829967 [sender.py:send_request():406] send_request: defer
+2024-05-05 18:30:19,677 INFO    SenderThread:829967 [sender.py:send_request_defer():610] handle sender defer: 4
+2024-05-05 18:30:19,677 INFO    SenderThread:829967 [sender.py:transition_state():614] send defer: 5
+2024-05-05 18:30:19,677 DEBUG   HandlerThread:829967 [handler.py:handle_request():146] handle_request: defer
+2024-05-05 18:30:19,678 INFO    HandlerThread:829967 [handler.py:handle_request_defer():172] handle defer: 5
+2024-05-05 18:30:19,678 DEBUG   SenderThread:829967 [sender.py:send():379] send: summary
+2024-05-05 18:30:19,679 INFO    SenderThread:829967 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-05-05 18:30:19,679 DEBUG   SenderThread:829967 [sender.py:send_request():406] send_request: defer
+2024-05-05 18:30:19,680 INFO    SenderThread:829967 [sender.py:send_request_defer():610] handle sender defer: 5
+2024-05-05 18:30:19,680 INFO    SenderThread:829967 [sender.py:transition_state():614] send defer: 6
+2024-05-05 18:30:19,680 DEBUG   HandlerThread:829967 [handler.py:handle_request():146] handle_request: defer
+2024-05-05 18:30:19,681 INFO    HandlerThread:829967 [handler.py:handle_request_defer():172] handle defer: 6
+2024-05-05 18:30:19,681 DEBUG   SenderThread:829967 [sender.py:send_request():406] send_request: defer
+2024-05-05 18:30:19,681 INFO    SenderThread:829967 [sender.py:send_request_defer():610] handle sender defer: 6
+2024-05-05 18:30:19,681 INFO    SenderThread:829967 [sender.py:transition_state():614] send defer: 7
+2024-05-05 18:30:19,681 DEBUG   HandlerThread:829967 [handler.py:handle_request():146] handle_request: status_report
+2024-05-05 18:30:19,682 DEBUG   HandlerThread:829967 [handler.py:handle_request():146] handle_request: defer
+2024-05-05 18:30:19,682 INFO    HandlerThread:829967 [handler.py:handle_request_defer():172] handle defer: 7
+2024-05-05 18:30:19,683 DEBUG   SenderThread:829967 [sender.py:send_request():406] send_request: defer
+2024-05-05 18:30:19,683 INFO    SenderThread:829967 [sender.py:send_request_defer():610] handle sender defer: 7
+2024-05-05 18:30:20,011 INFO    Thread-12 :829967 [dir_watcher.py:_on_file_modified():288] file/dir modified: /users/eleves-b/2022/siyuan.zou/DL_SiyuanZou/train/Chellenge_Cheese/outputs/train/2024-05-05_18-27-42/wandb/run-20240505_182743-kw8gpkqe/files/wandb-summary.json
+2024-05-05 18:30:20,629 DEBUG   HandlerThread:829967 [handler.py:handle_request():146] handle_request: poll_exit
+2024-05-05 18:30:22,016 INFO    Thread-12 :829967 [dir_watcher.py:_on_file_modified():288] file/dir modified: /users/eleves-b/2022/siyuan.zou/DL_SiyuanZou/train/Chellenge_Cheese/outputs/train/2024-05-05_18-27-42/wandb/run-20240505_182743-kw8gpkqe/files/output.log
+2024-05-05 18:30:22,181 INFO    SenderThread:829967 [sender.py:transition_state():614] send defer: 8
+2024-05-05 18:30:22,181 DEBUG   SenderThread:829967 [sender.py:send_request():406] send_request: poll_exit
+2024-05-05 18:30:22,181 DEBUG   HandlerThread:829967 [handler.py:handle_request():146] handle_request: defer
+2024-05-05 18:30:22,182 INFO    HandlerThread:829967 [handler.py:handle_request_defer():172] handle defer: 8
+2024-05-05 18:30:22,182 DEBUG   SenderThread:829967 [sender.py:send_request():406] send_request: defer
+2024-05-05 18:30:22,182 INFO    SenderThread:829967 [sender.py:send_request_defer():610] handle sender defer: 8
+2024-05-05 18:30:22,183 INFO    SenderThread:829967 [job_builder.py:build():318] Attempting to build job artifact
+2024-05-05 18:30:22,183 INFO    SenderThread:829967 [job_builder.py:_get_source_type():455] is repo sourced job
+2024-05-05 18:30:22,210 INFO    SenderThread:829967 [job_builder.py:build():431] adding wandb-job metadata file
+2024-05-05 18:30:22,220 INFO    SenderThread:829967 [sender.py:transition_state():614] send defer: 9
+2024-05-05 18:30:22,220 DEBUG   HandlerThread:829967 [handler.py:handle_request():146] handle_request: defer
+2024-05-05 18:30:22,221 INFO    HandlerThread:829967 [handler.py:handle_request_defer():172] handle defer: 9
+2024-05-05 18:30:22,221 DEBUG   SenderThread:829967 [sender.py:send():379] send: artifact
+2024-05-05 18:30:22,630 DEBUG   HandlerThread:829967 [handler.py:handle_request():146] handle_request: poll_exit
+2024-05-05 18:30:23,017 INFO    Thread-12 :829967 [dir_watcher.py:_on_file_modified():288] file/dir modified: /users/eleves-b/2022/siyuan.zou/DL_SiyuanZou/train/Chellenge_Cheese/outputs/train/2024-05-05_18-27-42/wandb/run-20240505_182743-kw8gpkqe/files/output.log
+2024-05-05 18:30:24,720 WARNING StreamThr :829967 [internal.py:is_dead():414] Internal process exiting, parent pid 829912 disappeared
+2024-05-05 18:30:24,720 ERROR   StreamThr :829967 [internal.py:wandb_internal():152] Internal process shutdown.
+2024-05-05 18:30:24,778 INFO    wandb-upload_1:829967 [upload_job.py:push():89] Uploaded file /tmp/tmp6vrmrw4l/wandb-job.json
+2024-05-05 18:30:24,823 INFO    wandb-upload_0:829967 [upload_job.py:push():89] Uploaded file /users/eleves-b/2022/siyuan.zou/.local/share/wandb/artifacts/staging/tmplexh942d
+2024-05-05 18:30:25,632 INFO    WriterThread:829967 [datastore.py:close():296] close: /users/eleves-b/2022/siyuan.zou/DL_SiyuanZou/train/Chellenge_Cheese/outputs/train/2024-05-05_18-27-42/wandb/run-20240505_182743-kw8gpkqe/run-kw8gpkqe.wandb
+2024-05-05 18:30:25,632 INFO    HandlerThread:829967 [handler.py:finish():866] shutting down handler
+2024-05-05 18:30:26,067 INFO    SenderThread:829967 [sender.py:send_artifact():1468] sent artifact job-https___github.com_siyuan-zou_Chellenge_Cheese.git_train.py - {'id': 'QXJ0aWZhY3Q6ODIyMDkzMDQx', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE2OTE4NjcwNA==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6ODIwMDUxMzM5', 'versionIndex': 4}}}
+2024-05-05 18:30:26,067 INFO    SenderThread:829967 [sender.py:finish():1546] shutting down sender
+2024-05-05 18:30:26,067 INFO    SenderThread:829967 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-05-05 18:30:27,020 INFO    SenderThread:829967 [dir_watcher.py:finish():388] scan: /users/eleves-b/2022/siyuan.zou/DL_SiyuanZou/train/Chellenge_Cheese/outputs/train/2024-05-05_18-27-42/wandb/run-20240505_182743-kw8gpkqe/files
+2024-05-05 18:30:27,020 INFO    SenderThread:829967 [dir_watcher.py:finish():402] scan save: /users/eleves-b/2022/siyuan.zou/DL_SiyuanZou/train/Chellenge_Cheese/outputs/train/2024-05-05_18-27-42/wandb/run-20240505_182743-kw8gpkqe/files/config.yaml config.yaml
+2024-05-05 18:30:27,020 INFO    SenderThread:829967 [dir_watcher.py:finish():402] scan save: /users/eleves-b/2022/siyuan.zou/DL_SiyuanZou/train/Chellenge_Cheese/outputs/train/2024-05-05_18-27-42/wandb/run-20240505_182743-kw8gpkqe/files/wandb-metadata.json wandb-metadata.json
+2024-05-05 18:30:27,021 INFO    SenderThread:829967 [dir_watcher.py:finish():402] scan save: /users/eleves-b/2022/siyuan.zou/DL_SiyuanZou/train/Chellenge_Cheese/outputs/train/2024-05-05_18-27-42/wandb/run-20240505_182743-kw8gpkqe/files/requirements.txt requirements.txt
+2024-05-05 18:30:27,021 INFO    SenderThread:829967 [dir_watcher.py:finish():402] scan save: /users/eleves-b/2022/siyuan.zou/DL_SiyuanZou/train/Chellenge_Cheese/outputs/train/2024-05-05_18-27-42/wandb/run-20240505_182743-kw8gpkqe/files/output.log output.log
+2024-05-05 18:30:27,022 INFO    SenderThread:829967 [dir_watcher.py:finish():402] scan save: /users/eleves-b/2022/siyuan.zou/DL_SiyuanZou/train/Chellenge_Cheese/outputs/train/2024-05-05_18-27-42/wandb/run-20240505_182743-kw8gpkqe/files/wandb-summary.json wandb-summary.json
+2024-05-05 18:30:27,022 INFO    SenderThread:829967 [file_pusher.py:finish():172] shutting down file pusher
+2024-05-05 18:30:27,023 INFO    SenderThread:829967 [file_pusher.py:join():178] waiting for file pusher
+2024-05-05 18:30:27,524 INFO    SenderThread:829967 [file_stream.py:finish():614] file stream finish called
+2024-05-05 18:30:27,650 INFO    SenderThread:829967 [file_stream.py:finish():618] file stream finish is done

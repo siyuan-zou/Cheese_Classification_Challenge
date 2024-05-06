@@ -1,0 +1,29 @@
+Using cache found in /users/eleves-b/2022/siyuan.zou/.cache/torch/hub/facebookresearch_dinov2_main
+/users/eleves-b/2022/siyuan.zou/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+/users/eleves-b/2022/siyuan.zou/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/attention.py:33: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+/users/eleves-b/2022/siyuan.zou/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/block.py:40: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+[2024-05-06 00:42:29,048][dinov2][INFO] - using MLP layer as FFN
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|████████████████████████████████████████████████████████████████████████████████| 20/20 [21:16<00:00, 63.84s/it]

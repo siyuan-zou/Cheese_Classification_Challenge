@@ -3,6 +3,24 @@ import json
 import re
 # from unidecode import unidecode
 
+def find_keys_containing(target, data, num_images_per_label=200):
+    results = []
+    if isinstance(data, dict):
+        for key, value in data.items():
+            if target in key:
+                results.append(
+                    {
+                        "prompt": value,
+                        "num_images": num_images_per_label,
+                    })
+            # Recurse into nested dictionaries
+            if isinstance(value, (dict, list)):
+                results.extend(find_keys_containing(target, value))
+    elif isinstance(data, list):
+        for item in data:
+            results.extend(find_keys_containing(target, item))
+    return results
+
 def clean_label(label):
         if '-' in label:
             # remove spaces around hyphen
@@ -150,4 +168,25 @@ class FoodsPromptsGenerator(DatasetGenerator):
                         "num_images": self.num_images_per_label,
                     }
                 )
+        return prompts
+    
+class CaptionningGenerator(DatasetGenerator):
+    def __init__(
+        self,
+        generator,
+        batch_size=1,
+        output_dir="dataset/train",
+        num_images_per_label=200,
+    ):
+        super().__init__(generator, batch_size, output_dir)
+        self.num_images_per_label = num_images_per_label
+        self.type = "captionning"
+
+    def create_prompts(self, labels_names):
+        with open("/users/eleves-b/2022/siyuan.zou/DL_SiyuanZou/Chellenge_Cheese/prompts/semantic_captionning_validation.json", "r") as f:
+            designed_prompts = json.load(f)
+
+        prompts = {}
+        for label in labels_names:
+            prompts = find_keys_containing(label, designed_prompts, num_images_per_label=self.num_images_per_label)
         return prompts

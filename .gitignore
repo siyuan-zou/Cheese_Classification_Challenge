@@ -1,8 +1,13 @@
 kaggle.json
 test.py
 record.txt
+generate_with_dreambooth.py
+list_of_cheese_moins_10.txt
+list_of_cheese.txt
+submission.csv
 
 checkpoints
 dataset
 output
 submitions
+results_ana

@@ -1,0 +1,754 @@
+{
+    "dataset/val/BEAUFORT/000001.jpg": [
+        "BEAUFORT",
+        "MONT D\u2019OR"
+    ],
+    "dataset/val/BEAUFORT/000002.jpg": [
+        "BEAUFORT",
+        "PARMESAN"
+    ],
+    "dataset/val/BEAUFORT/000007.jpg": [
+        "BEAUFORT",
+        "COMT\u00c9"
+    ],
+    "dataset/val/BEAUFORT/000016.jpg": [
+        "BEAUFORT",
+        "FROMAGE FRAIS"
+    ],
+    "dataset/val/BRIE DE MELUN/000005.jpg": [
+        "BRIE DE MELUN",
+        "MONT D\u2019OR"
+    ],
+    "dataset/val/BRIE DE MELUN/000006.jpg": [
+        "BRIE DE MELUN",
+        "CAMEMBERT"
+    ],
+    "dataset/val/BRIE DE MELUN/000007.jpg": [
+        "BRIE DE MELUN",
+        "CAMEMBERT"
+    ],
+    "dataset/val/BRIE DE MELUN/000008.jpg": [
+        "BRIE DE MELUN",
+        "REBLOCHON"
+    ],
+    "dataset/val/BRIE DE MELUN/000014.jpg": [
+        "BRIE DE MELUN",
+        "FROMAGE FRAIS"
+    ],
+    "dataset/val/BRIE DE MELUN/000017.jpg": [
+        "BRIE DE MELUN",
+        "CABECOU"
+    ],
+    "dataset/val/BRIE DE MELUN/000022.jpg": [
+        "BRIE DE MELUN",
+        "CABECOU"
+    ],
+    "dataset/val/B\u00dbCHETTE DE CH\u00c8VRE/000003.jpg": [
+        "B\u00dbCHETTE DE CH\u00c8VRE",
+        "OSSAU- IRATY"
+    ],
+    "dataset/val/B\u00dbCHETTE DE CH\u00c8VRE/000007.jpg": [
+        "B\u00dbCHETTE DE CH\u00c8VRE",
+        "CABECOU"
+    ],
+    "dataset/val/B\u00dbCHETTE DE CH\u00c8VRE/000011.jpg": [
+        "B\u00dbCHETTE DE CH\u00c8VRE",
+        "FROMAGE FRAIS"
+    ],
+    "dataset/val/B\u00dbCHETTE DE CH\u00c8VRE/000013.jpg": [
+        "B\u00dbCHETTE DE CH\u00c8VRE",
+        "FROMAGE FRAIS"
+    ],
+    "dataset/val/B\u00dbCHETTE DE CH\u00c8VRE/000014.jpg": [
+        "B\u00dbCHETTE DE CH\u00c8VRE",
+        "FROMAGE FRAIS"
+    ],
+    "dataset/val/B\u00dbCHETTE DE CH\u00c8VRE/000018.jpg": [
+        "B\u00dbCHETTE DE CH\u00c8VRE",
+        "FROMAGE FRAIS"
+    ],
+    "dataset/val/B\u00dbCHETTE DE CH\u00c8VRE/000020.jpg": [
+        "B\u00dbCHETTE DE CH\u00c8VRE",
+        "CH\u00c8VRE"
+    ],
+    "dataset/val/CABECOU/000012.jpg": [
+        "CABECOU",
+        "FROMAGE FRAIS"
+    ],
+    "dataset/val/CABECOU/000016.jpg": [
+        "CABECOU",
+        "FROMAGE FRAIS"
+    ],
+    "dataset/val/CABECOU/000018.jpg": [
+        "CABECOU",
+        "FROMAGE FRAIS"
+    ],
+    "dataset/val/CAMEMBERT/000001.jpg": [
+        "CAMEMBERT",
+        "FROMAGE FRAIS"
+    ],
+    "dataset/val/CAMEMBERT/000002.jpg": [
+        "CAMEMBERT",
+        "CH\u00c8VRE"
+    ],
+    "dataset/val/CAMEMBERT/000003.jpg": [
+        "CAMEMBERT",
+        "FETA"
+    ],
+    "dataset/val/CAMEMBERT/000007.jpg": [
+        "CAMEMBERT",
+        "FROMAGE FRAIS"
+    ],
+    "dataset/val/CAMEMBERT/000008.jpg": [
+        "CAMEMBERT",
+        "NEUFCHATEL"
+    ],
+    "dataset/val/CAMEMBERT/000009.jpg": [
+        "CAMEMBERT",
+        "OSSAU- IRATY"
+    ],
+    "dataset/val/CAMEMBERT/000014.jpg": [
+        "CAMEMBERT",
+        "FROMAGE FRAIS"
+    ],
+    "dataset/val/CAMEMBERT/000017.jpg": [
+        "CAMEMBERT",
+        "EPOISSES"
+    ],
+    "dataset/val/CAMEMBERT/000019.jpg": [
+        "CAMEMBERT",
+        "MONT D\u2019OR"
+    ],
+    "dataset/val/CAMEMBERT/000021.jpg": [
+        "CAMEMBERT",
+        "FROMAGE FRAIS"
+    ],
+    "dataset/val/CHABICHOU/000010.jpg": [
+        "CHABICHOU",
+        "FROMAGE FRAIS"
+    ],
+    "dataset/val/CHEDDAR/000003.jpg": [
+        "CHEDDAR",
+        "CHABICHOU"
+    ],
+    "dataset/val/CHEDDAR/000006.jpg": [
+        "CHEDDAR",
+        "OSSAU- IRATY"
+    ],
+    "dataset/val/CHEDDAR/000008.jpg": [
+        "CHEDDAR",
+        "GRUY\u00c8RE"
+    ],
+    "dataset/val/CHEDDAR/000009.jpg": [
+        "CHEDDAR",
+        "FETA"
+    ],
+    "dataset/val/CHEDDAR/000011.jpg": [
+        "CHEDDAR",
+        "MIMOLETTE"
+    ],
+    "dataset/val/CHEDDAR/000012.jpg": [
+        "CHEDDAR",
+        "MIMOLETTE"
+    ],
+    "dataset/val/CHEDDAR/000015.jpg": [
+        "CHEDDAR",
+        "OSSAU- IRATY"
+    ],
+    "dataset/val/CHEDDAR/000018.jpg": [
+        "CHEDDAR",
+        "MIMOLETTE"
+    ],
+    "dataset/val/CHEDDAR/000019.jpg": [
+        "CHEDDAR",
+        "BEAUFORT"
+    ],
+    "dataset/val/CHEDDAR/000022.jpg": [
+        "CHEDDAR",
+        "FROMAGE FRAIS"
+    ],
+    "dataset/val/CH\u00c8VRE/000002.jpg": [
+        "CH\u00c8VRE",
+        "OSSAU- IRATY"
+    ],
+    "dataset/val/CH\u00c8VRE/000007.jpg": [
+        "CH\u00c8VRE",
+        "POULIGNY SAINT- PIERRE"
+    ],
+    "dataset/val/CH\u00c8VRE/000011.jpg": [
+        "CH\u00c8VRE",
+        "FROMAGE FRAIS"
+    ],
+    "dataset/val/CH\u00c8VRE/000013.jpg": [
+        "CH\u00c8VRE",
+        "FROMAGE FRAIS"
+    ],
+    "dataset/val/CH\u00c8VRE/000014.jpg": [
+        "CH\u00c8VRE",
+        "COMT\u00c9"
+    ],
+    "dataset/val/CH\u00c8VRE/000018.jpg": [
+        "CH\u00c8VRE",
+        "MOZZARELLA"
+    ],
+    "dataset/val/CH\u00c8VRE/000019.jpg": [
+        "CH\u00c8VRE",
+        "FROMAGE FRAIS"
+    ],
+    "dataset/val/COMT\u00c9/000001.jpg": [
+        "COMT\u00c9",
+        "POULIGNY SAINT- PIERRE"
+    ],
+    "dataset/val/COMT\u00c9/000008.jpg": [
+        "COMT\u00c9",
+        "GRUY\u00c8RE"
+    ],
+    "dataset/val/COMT\u00c9/000012.jpg": [
+        "COMT\u00c9",
+        "MORBIER"
+    ],
+    "dataset/val/COMT\u00c9/000017.jpg": [
+        "COMT\u00c9",
+        "MORBIER"
+    ],
+    "dataset/val/COMT\u00c9/000019.jpg": [
+        "COMT\u00c9",
+        "SCARMOZA"
+    ],
+    "dataset/val/COMT\u00c9/000020.jpg": [
+        "COMT\u00c9",
+        "CAMEMBERT"
+    ],
+    "dataset/val/COMT\u00c9/000022.jpg": [
+        "COMT\u00c9",
+        "SCARMOZA"
+    ],
+    "dataset/val/EPOISSES/000004.jpg": [
+        "EPOISSES",
+        "CHABICHOU"
+    ],
+    "dataset/val/EPOISSES/000008.jpg": [
+        "EPOISSES",
+        "OSSAU- IRATY"
+    ],
+    "dataset/val/EPOISSES/000015.jpg": [
+        "EPOISSES",
+        "SAINT- F\u00c9LICIEN"
+    ],
+    "dataset/val/FETA/000002.jpg": [
+        "FETA",
+        "CAMEMBERT"
+    ],
+    "dataset/val/FETA/000005.jpg": [
+        "FETA",
+        "FROMAGE FRAIS"
+    ],
+    "dataset/val/FETA/000006.jpg": [
+        "FETA",
+        "FROMAGE FRAIS"
+    ],
+    "dataset/val/FETA/000013.jpg": [
+        "FETA",
+        "FROMAGE FRAIS"
+    ],
+    "dataset/val/FETA/000020.jpg": [
+        "FETA",
+        "FROMAGE FRAIS"
+    ],
+    "dataset/val/FETA/000024.jpg": [
+        "FETA",
+        "FROMAGE FRAIS"
+    ],
+    "dataset/val/FOURME D\u2019AMBERT/000009.jpg": [
+        "FOURME D\u2019AMBERT",
+        "POULIGNY SAINT- PIERRE"
+    ],
+    "dataset/val/FOURME D\u2019AMBERT/000022.jpg": [
+        "FOURME D\u2019AMBERT",
+        "STILTON"
+    ],
+    "dataset/val/FOURME D\u2019AMBERT/000024.jpg": [
+        "FOURME D\u2019AMBERT",
+        "ROQUEFORT"
+    ],
+    "dataset/val/FROMAGE FRAIS/000012.jpg": [
+        "FROMAGE FRAIS",
+        "FETA"
+    ],
+    "dataset/val/GRUY\u00c8RE/000002.jpg": [
+        "GRUY\u00c8RE",
+        "BEAUFORT"
+    ],
+    "dataset/val/GRUY\u00c8RE/000003.jpg": [
+        "GRUY\u00c8RE",
+        "SCARMOZA"
+    ],
+    "dataset/val/GRUY\u00c8RE/000010.jpg": [
+        "GRUY\u00c8RE",
+        "CHEDDAR"
+    ],
+    "dataset/val/GRUY\u00c8RE/000017.jpg": [
+        "GRUY\u00c8RE",
+        "COMT\u00c9"
+    ],
+    "dataset/val/GRUY\u00c8RE/000018.jpg": [
+        "GRUY\u00c8RE",
+        "PECORINO"
+    ],
+    "dataset/val/MAROILLES/000000.jpg": [
+        "MAROILLES",
+        "TOMME DE VACHE"
+    ],
+    "dataset/val/MAROILLES/000002.jpg": [
+        "MAROILLES",
+        "FROMAGE FRAIS"
+    ],
+    "dataset/val/MAROILLES/000006.jpg": [
+        "MAROILLES",
+        "PECORINO"
+    ],
+    "dataset/val/MAROILLES/000010.jpg": [
+        "MAROILLES",
+        "FROMAGE FRAIS"
+    ],
+    "dataset/val/MAROILLES/000012.jpg": [
+        "MAROILLES",
+        "FROMAGE FRAIS"
+    ],
+    "dataset/val/MAROILLES/000022.jpg": [
+        "MAROILLES",
+        "NEUFCHATEL"
+    ],
+    "dataset/val/MIMOLETTE/000017.jpg": [
+        "MIMOLETTE",
+        "OSSAU- IRATY"
+    ],
+    "dataset/val/MIMOLETTE/000018.jpg": [
+        "MIMOLETTE",
+        "EPOISSES"
+    ],
+    "dataset/val/MIMOLETTE/000023.jpg": [
+        "MIMOLETTE",
+        "EMMENTAL"
+    ],
+    "dataset/val/MORBIER/000010.jpg": [
+        "MORBIER",
+        "MAROILLES"
+    ],
+    "dataset/val/MOTHAIS/000000.jpg": [
+        "MOTHAIS",
+        "FROMAGE FRAIS"
+    ],
+    "dataset/val/MOTHAIS/000002.jpg": [
+        "MOTHAIS",
+        "FROMAGE FRAIS"
+    ],
+    "dataset/val/MOTHAIS/000003.jpg": [
+        "MOTHAIS",
+        "OSSAU- IRATY"
+    ],
+    "dataset/val/MOTHAIS/000004.jpg": [
+        "MOTHAIS",
+        "BEAUFORT"
+    ],
+    "dataset/val/MOTHAIS/000005.jpg": [
+        "MOTHAIS",
+        "POULIGNY SAINT- PIERRE"
+    ],
+    "dataset/val/MOTHAIS/000014.jpg": [
+        "MOTHAIS",
+        "FOURME D\u2019AMBERT"
+    ],
+    "dataset/val/MOTHAIS/000015.jpg": [
+        "MOTHAIS",
+        "SAINT-NECTAIRE"
+    ],
+    "dataset/val/MOTHAIS/000016.jpg": [
+        "MOTHAIS",
+        "CHABICHOU"
+    ],
+    "dataset/val/MOTHAIS/000017.jpg": [
+        "MOTHAIS",
+        "CHABICHOU"
+    ],
+    "dataset/val/MOTHAIS/000021.jpg": [
+        "MOTHAIS",
+        "FROMAGE FRAIS"
+    ],
+    "dataset/val/MOZZARELLA/000001.jpg": [
+        "MOZZARELLA",
+        "FROMAGE FRAIS"
+    ],
+    "dataset/val/MOZZARELLA/000005.jpg": [
+        "MOZZARELLA",
+        "FROMAGE FRAIS"
+    ],
+    "dataset/val/MOZZARELLA/000007.jpg": [
+        "MOZZARELLA",
+        "FROMAGE FRAIS"
+    ],
+    "dataset/val/MOZZARELLA/000010.jpg": [
+        "MOZZARELLA",
+        "FROMAGE FRAIS"
+    ],
+    "dataset/val/MOZZARELLA/000013.jpg": [
+        "MOZZARELLA",
+        "PECORINO"
+    ],
+    "dataset/val/MOZZARELLA/000014.jpg": [
+        "MOZZARELLA",
+        "SCARMOZA"
+    ],
+    "dataset/val/MOZZARELLA/000020.jpg": [
+        "MOZZARELLA",
+        "SCARMOZA"
+    ],
+    "dataset/val/MOZZARELLA/000023.jpg": [
+        "MOZZARELLA",
+        "PARMESAN"
+    ],
+    "dataset/val/MUNSTER/000007.jpg": [
+        "MUNSTER",
+        "B\u00dbCHETTE DE CH\u00c8VRE"
+    ],
+    "dataset/val/MUNSTER/000012.jpg": [
+        "MUNSTER",
+        "COMT\u00c9"
+    ],
+    "dataset/val/MUNSTER/000013.jpg": [
+        "MUNSTER",
+        "B\u00dbCHETTE DE CH\u00c8VRE"
+    ],
+    "dataset/val/MUNSTER/000018.jpg": [
+        "MUNSTER",
+        "OSSAU- IRATY"
+    ],
+    "dataset/val/MUNSTER/000021.jpg": [
+        "MUNSTER",
+        "EPOISSES"
+    ],
+    "dataset/val/MUNSTER/000022.jpg": [
+        "MUNSTER",
+        "MAROILLES"
+    ],
+    "dataset/val/MUNSTER/000023.jpg": [
+        "MUNSTER",
+        "T\u00caTE DE MOINES"
+    ],
+    "dataset/val/MUNSTER/000024.jpg": [
+        "MUNSTER",
+        "REBLOCHON"
+    ],
+    "dataset/val/NEUFCHATEL/000003.jpg": [
+        "NEUFCHATEL",
+        "FROMAGE FRAIS"
+    ],
+    "dataset/val/NEUFCHATEL/000009.jpg": [
+        "NEUFCHATEL",
+        "B\u00dbCHETTE DE CH\u00c8VRE"
+    ],
+    "dataset/val/NEUFCHATEL/000022.jpg": [
+        "NEUFCHATEL",
+        "FROMAGE FRAIS"
+    ],
+    "dataset/val/OSSAU- IRATY/000002.jpg": [
+        "OSSAU- IRATY",
+        "SCARMOZA"
+    ],
+    "dataset/val/OSSAU- IRATY/000003.jpg": [
+        "OSSAU- IRATY",
+        "PECORINO"
+    ],
+    "dataset/val/OSSAU- IRATY/000006.jpg": [
+        "OSSAU- IRATY",
+        "MUNSTER"
+    ],
+    "dataset/val/OSSAU- IRATY/000013.jpg": [
+        "OSSAU- IRATY",
+        "BEAUFORT"
+    ],
+    "dataset/val/OSSAU- IRATY/000023.jpg": [
+        "OSSAU- IRATY",
+        "RACLETTE"
+    ],
+    "dataset/val/PARMESAN/000000.jpg": [
+        "PARMESAN",
+        "GRUY\u00c8RE"
+    ],
+    "dataset/val/PARMESAN/000002.jpg": [
+        "PARMESAN",
+        "OSSAU- IRATY"
+    ],
+    "dataset/val/PARMESAN/000007.jpg": [
+        "PARMESAN",
+        "OSSAU- IRATY"
+    ],
+    "dataset/val/PARMESAN/000012.jpg": [
+        "PARMESAN",
+        "BEAUFORT"
+    ],
+    "dataset/val/PARMESAN/000014.jpg": [
+        "PARMESAN",
+        "PECORINO"
+    ],
+    "dataset/val/PARMESAN/000017.jpg": [
+        "PARMESAN",
+        "FROMAGE FRAIS"
+    ],
+    "dataset/val/PARMESAN/000020.jpg": [
+        "PARMESAN",
+        "CH\u00c8VRE"
+    ],
+    "dataset/val/PARMESAN/000023.jpg": [
+        "PARMESAN",
+        "CHABICHOU"
+    ],
+    "dataset/val/PECORINO/000000.jpg": [
+        "PECORINO",
+        "PARMESAN"
+    ],
+    "dataset/val/PECORINO/000007.jpg": [
+        "PECORINO",
+        "OSSAU- IRATY"
+    ],
+    "dataset/val/PECORINO/000017.jpg": [
+        "PECORINO",
+        "PARMESAN"
+    ],
+    "dataset/val/PECORINO/000018.jpg": [
+        "PECORINO",
+        "SCARMOZA"
+    ],
+    "dataset/val/PECORINO/000019.jpg": [
+        "PECORINO",
+        "OSSAU- IRATY"
+    ],
+    "dataset/val/PECORINO/000021.jpg": [
+        "PECORINO",
+        "SCARMOZA"
+    ],
+    "dataset/val/PECORINO/000022.jpg": [
+        "PECORINO",
+        "CHEDDAR"
+    ],
+    "dataset/val/POULIGNY SAINT- PIERRE/000009.jpg": [
+        "POULIGNY SAINT- PIERRE",
+        "FETA"
+    ],
+    "dataset/val/RACLETTE/000011.jpg": [
+        "RACLETTE",
+        "OSSAU- IRATY"
+    ],
+    "dataset/val/RACLETTE/000017.jpg": [
+        "RACLETTE",
+        "COMT\u00c9"
+    ],
+    "dataset/val/RACLETTE/000018.jpg": [
+        "RACLETTE",
+        "EMMENTAL"
+    ],
+    "dataset/val/REBLOCHON/000001.jpg": [
+        "REBLOCHON",
+        "TOMME DE VACHE"
+    ],
+    "dataset/val/REBLOCHON/000003.jpg": [
+        "REBLOCHON",
+        "FROMAGE FRAIS"
+    ],
+    "dataset/val/REBLOCHON/000006.jpg": [
+        "REBLOCHON",
+        "TOMME DE VACHE"
+    ],
+    "dataset/val/REBLOCHON/000010.jpg": [
+        "REBLOCHON",
+        "SAINT-NECTAIRE"
+    ],
+    "dataset/val/REBLOCHON/000014.jpg": [
+        "REBLOCHON",
+        "OSSAU- IRATY"
+    ],
+    "dataset/val/REBLOCHON/000020.jpg": [
+        "REBLOCHON",
+        "MONT D\u2019OR"
+    ],
+    "dataset/val/REBLOCHON/000022.jpg": [
+        "REBLOCHON",
+        "NEUFCHATEL"
+    ],
+    "dataset/val/ROQUEFORT/000003.jpg": [
+        "ROQUEFORT",
+        "PECORINO"
+    ],
+    "dataset/val/ROQUEFORT/000009.jpg": [
+        "ROQUEFORT",
+        "OSSAU- IRATY"
+    ],
+    "dataset/val/ROQUEFORT/000010.jpg": [
+        "ROQUEFORT",
+        "COMT\u00c9"
+    ],
+    "dataset/val/ROQUEFORT/000012.jpg": [
+        "ROQUEFORT",
+        "NEUFCHATEL"
+    ],
+    "dataset/val/ROQUEFORT/000016.jpg": [
+        "ROQUEFORT",
+        "FETA"
+    ],
+    "dataset/val/ROQUEFORT/000019.jpg": [
+        "ROQUEFORT",
+        "FROMAGE FRAIS"
+    ],
+    "dataset/val/SAINT- F\u00c9LICIEN/000002.jpg": [
+        "SAINT- F\u00c9LICIEN",
+        "MOZZARELLA"
+    ],
+    "dataset/val/SAINT- F\u00c9LICIEN/000003.jpg": [
+        "SAINT- F\u00c9LICIEN",
+        "TOMME DE VACHE"
+    ],
+    "dataset/val/SAINT- F\u00c9LICIEN/000015.jpg": [
+        "SAINT- F\u00c9LICIEN",
+        "FROMAGE FRAIS"
+    ],
+    "dataset/val/SAINT- F\u00c9LICIEN/000017.jpg": [
+        "SAINT- F\u00c9LICIEN",
+        "FROMAGE FRAIS"
+    ],
+    "dataset/val/SAINT- F\u00c9LICIEN/000019.jpg": [
+        "SAINT- F\u00c9LICIEN",
+        "FROMAGE FRAIS"
+    ],
+    "dataset/val/SAINT-NECTAIRE/000007.jpg": [
+        "SAINT-NECTAIRE",
+        "REBLOCHON"
+    ],
+    "dataset/val/SAINT-NECTAIRE/000010.jpg": [
+        "SAINT-NECTAIRE",
+        "CHEDDAR"
+    ],
+    "dataset/val/SAINT-NECTAIRE/000011.jpg": [
+        "SAINT-NECTAIRE",
+        "REBLOCHON"
+    ],
+    "dataset/val/SAINT-NECTAIRE/000018.jpg": [
+        "SAINT-NECTAIRE",
+        "MAROILLES"
+    ],
+    "dataset/val/SAINT-NECTAIRE/000019.jpg": [
+        "SAINT-NECTAIRE",
+        "OSSAU- IRATY"
+    ],
+    "dataset/val/SAINT-NECTAIRE/000024.jpg": [
+        "SAINT-NECTAIRE",
+        "REBLOCHON"
+    ],
+    "dataset/val/SCARMOZA/000013.jpg": [
+        "SCARMOZA",
+        "FROMAGE FRAIS"
+    ],
+    "dataset/val/SCARMOZA/000016.jpg": [
+        "SCARMOZA",
+        "REBLOCHON"
+    ],
+    "dataset/val/STILTON/000004.jpg": [
+        "STILTON",
+        "FROMAGE FRAIS"
+    ],
+    "dataset/val/STILTON/000008.jpg": [
+        "STILTON",
+        "PARMESAN"
+    ],
+    "dataset/val/STILTON/000009.jpg": [
+        "STILTON",
+        "BEAUFORT"
+    ],
+    "dataset/val/STILTON/000015.jpg": [
+        "STILTON",
+        "FROMAGE FRAIS"
+    ],
+    "dataset/val/STILTON/000018.jpg": [
+        "STILTON",
+        "EPOISSES"
+    ],
+    "dataset/val/TOMME DE VACHE/000001.jpg": [
+        "TOMME DE VACHE",
+        "T\u00caTE DE MOINES"
+    ],
+    "dataset/val/TOMME DE VACHE/000007.jpg": [
+        "TOMME DE VACHE",
+        "FROMAGE FRAIS"
+    ],
+    "dataset/val/TOMME DE VACHE/000014.jpg": [
+        "TOMME DE VACHE",
+        "VACHERIN"
+    ],
+    "dataset/val/TOMME DE VACHE/000017.jpg": [
+        "TOMME DE VACHE",
+        "POULIGNY SAINT- PIERRE"
+    ],
+    "dataset/val/TOMME DE VACHE/000021.jpg": [
+        "TOMME DE VACHE",
+        "FETA"
+    ],
+    "dataset/val/TOMME DE VACHE/000022.jpg": [
+        "TOMME DE VACHE",
+        "FROMAGE FRAIS"
+    ],
+    "dataset/val/TOMME DE VACHE/000024.jpg": [
+        "TOMME DE VACHE",
+        "PECORINO"
+    ],
+    "dataset/val/T\u00caTE DE MOINES/000006.jpg": [
+        "T\u00caTE DE MOINES",
+        "CHABICHOU"
+    ],
+    "dataset/val/T\u00caTE DE MOINES/000018.jpg": [
+        "T\u00caTE DE MOINES",
+        "GRUY\u00c8RE"
+    ],
+    "dataset/val/T\u00caTE DE MOINES/000023.jpg": [
+        "T\u00caTE DE MOINES",
+        "CHABICHOU"
+    ],
+    "dataset/val/VACHERIN/000000.jpg": [
+        "VACHERIN",
+        "MONT D\u2019OR"
+    ],
+    "dataset/val/VACHERIN/000001.jpg": [
+        "VACHERIN",
+        "FROMAGE FRAIS"
+    ],
+    "dataset/val/VACHERIN/000003.jpg": [
+        "VACHERIN",
+        "GRUY\u00c8RE"
+    ],
+    "dataset/val/VACHERIN/000004.jpg": [
+        "VACHERIN",
+        "COMT\u00c9"
+    ],
+    "dataset/val/VACHERIN/000005.jpg": [
+        "VACHERIN",
+        "MONT D\u2019OR"
+    ],
+    "dataset/val/VACHERIN/000007.jpg": [
+        "VACHERIN",
+        "MAROILLES"
+    ],
+    "dataset/val/VACHERIN/000010.jpg": [
+        "VACHERIN",
+        "MONT D\u2019OR"
+    ],
+    "dataset/val/VACHERIN/000013.jpg": [
+        "VACHERIN",
+        "NEUFCHATEL"
+    ],
+    "dataset/val/VACHERIN/000018.jpg": [
+        "VACHERIN",
+        "GRUY\u00c8RE"
+    ],
+    "dataset/val/VACHERIN/000021.jpg": [
+        "VACHERIN",
+        "MONT D\u2019OR"
+    ]
+}

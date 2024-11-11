@@ -1,0 +1,1 @@
+Here we used detect.py to detect those wrongly classified images in the validation set for pre-trained checkpoints. And we found out the randomness.

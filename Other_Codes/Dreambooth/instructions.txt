@@ -1,0 +1,2 @@
+Here we use a folder named "datas" which contains only those selected validation images.
+Then we use train_dreambooth.py to generate photos.

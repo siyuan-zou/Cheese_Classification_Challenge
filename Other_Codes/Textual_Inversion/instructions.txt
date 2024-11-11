@@ -1,0 +1,1 @@
+We made changes to sdxl_lightning.py in the baseline to generate photos with pre-trained Textual Inversion model.

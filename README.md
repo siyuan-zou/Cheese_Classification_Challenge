@@ -5,8 +5,8 @@ This the codebase of the INF473V - Deep Learning in Computer Vision course chall
 
 Cloning the repo:
 ```
-git clone https://github.com/siyuan-zou/Chellenge_Cheese.git
-cd cheese_classification_challenge
+git clone https://github.com/siyuan-zou/Cheese_Classification_Challenge.git
+cd Cheese_Classification_Challenge
 ```
 Install dependencies:
 ```

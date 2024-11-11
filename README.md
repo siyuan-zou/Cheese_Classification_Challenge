@@ -1,5 +1,7 @@
 # Cheese Classification challenge
-This the codebase of the INF473V - Deep Learning in Computer Vision course challenge at École Polytechnique. The goal is to create a cheese classifier without any real training data. The training data were created using Dreambooth and Texual Inversion from Stable Diffusion 2.
+This the hydra and wandb configured codebase of the INF473V - Deep Learning in Computer Vision course challenge at École Polytechnique. The goal is to create a cheese classifier without any real training data. The training data were created using Dreambooth and Texual Inversion from Stable Diffusion 2.
+
+In the folder Dreambooth and Texual_Inversion, I have attached used codes for finetuning.
 
 ## Instalation
 
@@ -83,3 +85,7 @@ python create_submition.py experiment_name="name_of_the_exp_you_want_to_score" m
 ```
 
 Make sure to specify the name of the checkpoint you want to score and to have the right model config
+
+## Acknowledgement
+
+Yining.C
